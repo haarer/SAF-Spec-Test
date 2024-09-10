@@ -5,7 +5,6 @@ layout: default
 has_children: true
 nav_order: 30
 ---
-## Domain Common
-**Objective**
-
-[tbd]
+## Functional Domain
+{% assign dom = site.data.domains | where: "Name","Functional" %}
+{{ dom.first.Documentation }}

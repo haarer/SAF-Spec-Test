@@ -8,9 +8,9 @@ nav_order: 10
 **C2_ARAS** Argumentation Assurance Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](/diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
+|[Common](../domains.md)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](/diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
 ## Example
-![Argumentation-Assurance-Viewpoint-primary-example.svg](/diagrams/vp-examples/Argumentation-Assurance-Viewpoint-primary-example.svg)
+![Argumentation-Assurance-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Argumentation-Assurance-Viewpoint-primary-example.svg)
 ## Purpose
 The Argumentation Assurance Viewpoint presents claims backed up by arguments that are supported by evidence, together with the possibility to counter such claims in a similar manner.
 ## Applicability

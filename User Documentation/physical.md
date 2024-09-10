@@ -1,11 +1,10 @@
 ---
-title: Phyiscal Domain
+title: Physical Domain
 parent: "User Documentation"
 layout: default
 has_children: true
 nav_order: 50
 ---
-## Domain Common
-**Objective**
-
-[tbd]
+## Physical Domain
+{% assign dom = site.data.domains | where: "Name","Physical" %}
+{{ dom.first.Documentation }}

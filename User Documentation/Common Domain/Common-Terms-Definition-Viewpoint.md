@@ -6,13 +6,14 @@ layout: default
 nav_order: 30
 ---
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
-# SAF User Documentation : **C2_TRMD** Common Terms Definition Viewpoint
+# **C2_TRMD** Common Terms Definition Viewpoint
 |**Domain**|**Aspect**|**Maturity**|
-| --- | --- | --- |
-|[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](/diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|---|---|---|
+|[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)| ![Proposed](/diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+
 ## Example
-![Common-Terms-Definition-Viewpoint-primary-example.svg](/diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example.svg)
-![Common-Terms-Definition-Viewpoint-primary-example-1.svg](/diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example-1.svg)
+![Common-Terms-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example.svg)
+![Common-Terms-Definition-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example-1.svg)
 ## Purpose
 The Common Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
 ## Applicability
@@ -23,9 +24,9 @@ A table format listing  terms ...[tbd].
 A table format listing abbreviations and relationship to standards if applicable... [tbd].
 
 ## Stakeholder
-* [Hardware Developer](../stakeholders.md#Hardware-Developer)
-* [Mechanic Developer](../stakeholders.md#Mechanic-Developer)
-* [Software Developer](../stakeholders.md#Software-Developer)
+* [Hardware Developer](../stakeholders.md#hardware-developer)
+* [Mechanic Developer](../stakeholders.md#mechanic-developer)
+* [Software Developer](../stakeholders.md#software-developer)
 ## Concern
 * [What are the sources (e.g. a standard) of terms?](../concerns.md#_2021x_2_8710274_1701365358930_669398_98281)
 * [Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?](../concerns.md#_2021x_2_8710274_1701365325155_727486_98279)
