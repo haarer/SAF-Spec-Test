@@ -7,17 +7,21 @@ nav_order: 30
 ---
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
 # **C2_TRMD** Common Terms Definition Viewpoint
+
 |**Domain**|**Aspect**|**Maturity**|
 |---|---|---|
-|[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)| ![Proposed](/diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|[Common](../domains.md#common-domain)|[Taxonomy & Structure](../aspects.md#taxonomy--structure-aspect)| ![Proposed](/diagrams/Under_construction_icon-red.svg )[proposed](../maturity.md#proposed)|
 
 ## Example
 ![Common-Terms-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example.svg)
 ![Common-Terms-Definition-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Common-Terms-Definition-Viewpoint-primary-example-1.svg)
+
 ## Purpose
 The Common Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...
+
 ## Applicability
 The Common Terms Definition Viewpoint supports the ....[tbd] activity part of the...  [tbd]... activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§ tbd ].
+
 ## Presentation
 A table format listing  terms ...[tbd].
 

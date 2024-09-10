@@ -6,9 +6,11 @@ layout: default
 nav_order: 10
 ---
 **C2_ARAS** Argumentation Assurance Viewpoint
+
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../domains.md)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Released](/diagrams/Symbol_confirmed.png )[released](../using-saf/maturity.md#released)|
+|[Common](../domains.md#common-domain)|[Taxonomy & Structure](../aspects.md#taxonomy--structure-aspect)|![Released](/diagrams/Symbol_confirmed.png )[released](../maturity.md#released)|
+
 ## Example
 ![Argumentation-Assurance-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Argumentation-Assurance-Viewpoint-primary-example.svg)
 ## Purpose

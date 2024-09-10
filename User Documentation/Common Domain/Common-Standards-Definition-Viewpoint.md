@@ -7,12 +7,15 @@ nav_order: 20
 ---
 ![System Architecture Framework](../diagrams/Banner_SAF.png)
 # SAF User Documentation : **C2_CSTD** Common Standards Definition Viewpoint
+
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[Common](../domains.md#Domain-Common)|[Taxonomy & Structure](../aspects.md#Aspect-Taxonomy-&-Structure)|![Proposed](/diagrams/Under_construction_icon-red.svg )[proposed](../using-saf/maturity.md#proposed)|
+|[Common](../domains.md#common-domain)|[Taxonomy & Structure](../aspects.md#taxonomy--structure-aspect)|![Proposed](/diagrams/Under_construction_icon-red.svg )[proposed](../maturity.md#proposed)|
+
 ## Example
 ![Common-Standards-Definition-Viewpoint-primary-example.svg](../../diagrams/vp-examples/Common-Standards-Definition-Viewpoint-primary-example.svg)
 ![Common-Standards-Definition-Viewpoint-primary-example-1.svg](../../diagrams/vp-examples/Common-Standards-Definition-Viewpoint-primary-example-1.svg)
+
 ## Purpose
 The Standards Definition Viewpoint supports the definition of applicable standards, e.g., format and protocol specifications, regulations, and engineering documents that are used throughout the system life cycle. It provides the meta-data for the applied standards, guidance and policy, e.g., issue, version, issue date, and publisher. The Viewpoint helps to keep track of changes to the set of applicable documents and of new versions of applied standards. Links should be used to refer to documents external to the architecture description.
 ## Applicability

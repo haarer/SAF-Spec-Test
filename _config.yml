@@ -13,6 +13,3 @@ logo: "/assets/images/Banner_SAF_gross.png"
 plugins:
   - jekyll-relative-links
 
-relative_links:
-  enabled:     true
-  collections: true

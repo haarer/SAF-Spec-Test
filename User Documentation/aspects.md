@@ -6,6 +6,6 @@ nav_order: 5
 ---
 # Aspects
 {% for element in site.data.aspects %}
-## {{ element.Name }} Domain
+## {{ element.Name }} Aspect
 {{ element.Documentation }}
 {% endfor %}
