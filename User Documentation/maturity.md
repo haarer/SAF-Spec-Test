@@ -2,7 +2,7 @@
 title: Viewpoint Maturity
 parent: "User Documentation"
 layout: default
-nav_order: 50
+nav_order: 90
 ---
 # Viewpoint Maturity
 **Definition of maturity for viewpoints**

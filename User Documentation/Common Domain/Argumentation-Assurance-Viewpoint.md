@@ -1,7 +1,6 @@
 ---
 title: Argumentation Assurance Viewpoint
 parent: "Common Domain"
-grand_parent: "User Documentation"
 layout: default
 nav_order: 10
 ---

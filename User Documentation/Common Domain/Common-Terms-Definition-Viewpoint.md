@@ -1,7 +1,6 @@
 ---
 title: Common Terms Definition Viewpoint
 parent: "Common Domain"
-grand_parent: "User Documentation"
 layout: default
 nav_order: 30
 ---
