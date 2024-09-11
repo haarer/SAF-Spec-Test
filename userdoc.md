@@ -30,7 +30,7 @@ The SAF specification is implemented by 3 tool specific profiles which are avail
 
 # SAF Viewpoint Grid
 
-The SAF Viewpoints are organized as a Grid featuring [Domains](User Documentation/domains.md) as rows and [Aspects](User Documentation/aspects.md) as columns.
+The SAF Viewpoints are organized as a Grid featuring [Domains](userdoc/domains.md) as rows and [Aspects](userdoc/aspects.md) as columns.
 
 ![SAF Grid](diagrams/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
 

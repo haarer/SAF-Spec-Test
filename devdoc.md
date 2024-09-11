@@ -32,11 +32,11 @@ The SAF specification is implemented by 3 tool specific profiles which are avail
 
 # SAF Viewpoint Grid
 
-The SAF Viewpoints are organized as a Grid featuring [Domains](User Documentation/domains.md) as rows and [Aspects](User Documentation/aspects.md) as columns.
+The SAF Viewpoints are organized as a Grid featuring [Domains](userdoc/domains.md) as rows and [Aspects](userdoc/aspects.md) as columns.
 
 ![SAF Grid](diagrams/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
 
-The subsequent sections give an overview about the SAF viewpoint specifications, grouped by [Domains](User Documentation/domains.md). The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
+The subsequent sections give an overview about the SAF viewpoint specifications, grouped by [Domains](userdoc/domains.md). The specifications of the SAF viewpoints are available as [PDF format](./pdfs), too.
 
 ## Operational Domain
 
@@ -187,11 +187,11 @@ The SAF Common Domain provides viewpoints addressing model information that is c
 
 # Stakeholder Definition
 
-* [List of Stakeholders](User Documentation/stakeholders.md)
+* [List of Stakeholders](userdoc/stakeholders.md)
 
 # Concern Overview
 
-* [List of Concerns](User Documentation/concerns.md)
+* [List of Concerns](userdoc/concerns.md)
 
 # Profile Model
 

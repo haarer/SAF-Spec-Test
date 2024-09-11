@@ -22,7 +22,7 @@ The System Architecture Framework ![Bild](diagrams/Under_construction_icon-yello
 
 # SAF Documentation
 
-This site contains both documentation for users of SAF and developers of SAF. To understand how to use SAF, head over to **[User Documentation](userdoc.md)**. To understand how we develop SAF, see **[Development Documentation](developing-saf/development.md)**. We always welcome contributions from our MBSE community to improve SAF, see [how to contribute to SAF](contributing.md).
+This site contains both documentation for users of SAF and developers of SAF. To understand how to use SAF, head over to **[User Documentation](userdoc.md)**. To understand how we develop SAF, see **[Development Documentation](devdoc.md)**. We always welcome contributions from our MBSE community to improve SAF, see [how to contribute to SAF](contributing.md).
 
 # Example
 The System Architecture Framework Specification application is demonstrated using the **Fire Forest Detection System (FFDS)** example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**

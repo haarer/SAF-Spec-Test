@@ -276,7 +276,7 @@ Note: The intention is to capture the expectations and to explicitly dissect the
 ## SAF_DomainKind
 
 ### Icon
-![icon](icons/SAF_DomainKind.svg)
+![icon](../devdoc/icons/SAF_DomainKind.svg)
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Domain-Kind'>System Domain Kind</A><BR>System Domain Kind: Specification for any kind of conceptual item (energy, material, information, etc.) to be exchanged on Functional or Logical Level. The System Domain Kind is agnostic to any realization on Physical Level.<BR></html>
@@ -676,7 +676,7 @@ A dependency matrix featuring relationships for every System Requirement to the 
 ## SAF_FunctionAction
 
 ### Icon
-![icon](icons/SAF_FunctionAction.svg)
+![icon](../devdoc/icons/SAF_FunctionAction.svg)
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#General-Functional-Usage'>General Functional Usage</A><BR>General Functional Usage: Specifies the fact that a Function is used by one or more other Functions.<BR></html>
@@ -1167,7 +1167,7 @@ UAF::OperationalPerformer<BR></html>
 ## SAF_OperationalProcess
 
 ### Icon
-![icon](icons/SAF_OperationalProcess.svg)
+![icon](../devdoc/icons/SAF_OperationalProcess.svg)
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Process'>Operational Process</A><BR>Operational Process: An Operational Process captures activity-based operational behavior including scenarios, activity actions, and operational exchange flows, e.g., including information, materials, natural resources, etc.
@@ -1180,7 +1180,7 @@ NAF::Logical Activity<BR></html>
 ## SAF_OperationalProcessAction
 
 ### Icon
-![icon](icons/SAF_OperationalProcessAction.svg)
+![icon](../devdoc/icons/SAF_OperationalProcessAction.svg)
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#Operational-Process-Usage'>Operational Process Usage</A><BR>Operational Process Usage: Specifies the fact that an Operational Process is used in context of another Operational Process.
@@ -1484,7 +1484,7 @@ A assignment matrix featuring
 ## SAF_PhysicalItem
 
 ### Icon
-![icon](icons/SAF_PhysicalItem.svg)
+![icon](../devdoc/icons/SAF_PhysicalItem.svg)
 
 ### Documentation
 *none*
@@ -1662,7 +1662,7 @@ A assignment matrix featuring
 ## SAF_SystemCapability
 
 ### Icon
-![icon](icons/SAF_SystemCapability.svg)
+![icon](../devdoc/icons/SAF_SystemCapability.svg)
 
 ### Documentation
 <html>Implementation of SAF Concept <A HREF='https://github.com/GfSE/SAF-Specification/blob/main/developing-saf/concept/concepts.md#System-Capability'>System Capability</A><BR>System Capability: 1) A System Capability is an operation or task that performs an action to produce a specific performance-based outcome. NOTE that a system capability represents the potential to perform an action. In contrast, an operational capability may integrate several physical system capabilities to produce a specific outcome to achieve a mission objective. [Wasson2006, SystemAnalysis+Design+Development]

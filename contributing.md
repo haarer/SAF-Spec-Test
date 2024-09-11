@@ -1,7 +1,7 @@
 ---
 title: Contributing
 layout: default
-nav_order: 970
+nav_order: 90
 ---
 # How To Contribute to SAF?
 
