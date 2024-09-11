@@ -1,15 +1,18 @@
-**{{vp.VP_ID}}** {{vp.Name}}
+{% assign vp_tmp = site.data.viewpoints | where: "Name",page.title %}
+{% assign vp = vp_tmp.first %}
+
+**{{ vp.VP_ID }}** {{ vp.Name }}
 
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[{{vp.Domain}}](../domains.md#common-domain)|[{{vp.Aspect}}](../aspects.md#taxonomy--structure-aspect)|![{{vp.Maturity}}](/diagrams/Symbol_confirmed.png )[released](../maturity.md#released)|
+|[{{ vp.Domain }}](/userdoc/domains.html#{{ vp.Domain | downcase }}-domain)|[{{ vp.Aspect }}](../aspects.html#{{ vp.Aspect | downcase | replace: " ","-" | replace: "&",""}}-aspect)|![{{ vp.Maturity }}](/diagrams/Symbol_confirmed.png )[released](../maturity.html#released)|
 
 ## Example
 ![{{ vp.Example }}](../../diagrams/vp-examples/{{ vp.Example }})
 ## Purpose
-{{vp.Purpose}}
+{{ vp.Purpose }}
 ## Applicability
-{{vp.Applicability}}
+{{ vp.Applicability }}
 ## Presentation
 {% for pres in vp.Presentations %}
 {{ pres }}

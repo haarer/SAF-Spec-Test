@@ -5,7 +5,7 @@ layout: default
 nav_order: 10
 ---
 **C2_ARAS** Argumentation Assurance Viewpoint
-
+ 
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
 |[Common](../domains.md#common-domain)|[Taxonomy & Structure](../aspects.md#taxonomy--structure-aspect)|![Released](/diagrams/Symbol_confirmed.png )[released](../maturity.md#released)|
