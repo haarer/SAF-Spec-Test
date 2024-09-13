@@ -40,3 +40,14 @@ See the [SAF aspect Documentation](userdoc/aspects.md)
 **What is the Grid?** 
 The Grid of a Framework is a means to organize and structure the Viewpoints of a Framework. It is like a tool-wall in a well organized workshop. Every tool has its place and is easily accessable.
 See the [SAF Viewpoint Grid](userdoc.md#saf-viewpoint-grid)
+
+## System Hierarchy
+**What is a System Hierarchy or System Decomposition?**
+Hierarchy (or decomposition) is the partitioning of systems into subsystems.
+This is not to be confused with the Term "Abstraction Level"
+
+## Abstraction
+**What is an Abstraction or Abstraction Level?**
+Abstraction is *the quality of dealing with ideas rather than events*.
+An example is the difference between a concept and the solution.
+Abstraction has nothing to do with breaking whole things into smaller parts- that would be decompositon. 

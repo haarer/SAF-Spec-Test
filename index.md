@@ -6,9 +6,9 @@ nav_order: 0
 **This is a Test of an alternative Document generation Method and not the SAF Specification !**
 
 # Introduction
-Inspired by the various enterprise architecture frameworks the System Architecture Framework (SAF) is a common, domain independent system architecture framework dedicated to support model-based systems engineering of technical systems. The SAF is a complementary framework to enterprise architecture frameworks supporting the needs of potential system suppliers to enterprise acquires. SAF starts where an enterprise architecture framework stops.
+Inspired by the various enterprise architecture frameworks the System Architecture Framework (SAF) is a common, domain independent system architecture framework dedicated to support Model Based Systems Engineering (MBSE) of technical systems. 
 
-The application of an enterprise architecture framework results often in operational capability needs which may lead to the acquisition of one or more technical systems. The SAF supports the potential supplier of a technical system to pick up the baton from where the enterprise framework left it off.
+The SAF can be used stand-alone and also complementary to enterprise architecture frameworks. SAF starts where an enterprise architecture framework stops.
 
 The System Architecture Framework ![Bild](diagrams/Under_construction_icon-yellow.svg) **is work in progress**
 
