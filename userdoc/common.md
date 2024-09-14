@@ -1,6 +1,6 @@
 ---
 title: Common Domain
-parent: "User Documentation"
+parent: "Viewpoints"
 has_children: true
 layout: default
 nav_order: 10
