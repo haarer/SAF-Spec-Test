@@ -10,24 +10,24 @@ This Documentation is intended for users of SAF. To understand how we develop SA
 
 ## Framework Structure 
 
-**Stakeholders of the Architecture and their Information Need**
+### Stakeholders of the Architecture and their Information Need
 SAF partitions the amount of modeling work for e.g. a whole system architecture into smaller parts, which each deliver value for [stakeholders of the architecture](faq.md#stakeholders) by satisfying their information needs.
 
-**Viewpoints satisfying Information Needs**
+### Viewpoints satisfying Information Needs
 These smaller parts are called [viewpoints](faq.md#viewpoints). They each serve a certain purpose, adress stakeholders [concerns](faq.md#concerns) by presenting stakeholders a subset of the whole model. 
 
-**Viewpoints used to plan and partition work**
+### Viewpoints used to plan and partition work
 This allows to partition and plan the work on the MBSE effort according to the problem at hand and helps to focus to the most important parts of the work. A MBSE approach can be planned by defining which viewpoints must be worked on in which phase of the MBSE effort, and it also could prioritize work or define different depths of elaboration for the viewpoints to work on.
 
 Because of this, SAF helps to execute an MBSE effort by a plan which is backed by reasoning about the information need of stakeholders.
 
-**Viewpoints guide modeling effort to deliver stakeholder value**
+### Viewpoints guide modeling effort to deliver stakeholder value
 The viewpoints specify, which model elements shall be created in which kind of diagrams to serve the viewpoints purpose and adress the concerns of the stakeholders interested in the viewpoints. 
 
-**SAF Viewpoint Grid**
+### SAF Viewpoint Grid
 The SAF Viewpoints are organized as a Grid featuring [Domains](userdoc/domains.md) as rows and [Aspects](userdoc/aspects.md) as columns.
 
-**Domains follow engineering workflow**
+### Domains follow engineering workflow
 The [Domains](userdoc/domains.md)  are oriented by a typical engineering workflow. 
  * The [Common Domain](userdoc/common.md) contains workflow overarcing content such as Terms and Standards. 
  * The [Operational Domain](userdoc/operational.md) adresses information need during the concept phase (Mission Analysis and Stakeholder Requirements elicitation)
@@ -35,7 +35,7 @@ The [Domains](userdoc/domains.md)  are oriented by a typical engineering workflo
  * The [Logical Domain](userdoc/logical.md) adresses information needs during the Architecture Definition Process (the System Whitebox on conceptual level)
  * The [Physical Domain](userdoc/physical.md) adresses information needs during the Design Definition Process (the System Black Box and Whitebox on solution / design level)
 
-**Aspects follow kinds of concerns**
+### Aspects follow kinds of concerns
 The  [Aspects](userdoc/aspects.md) are oriented by the kind of information needs, e.g. questions about structure are answered by viewpoints in the taxonomy and structure aspect. Typically similar kinds of questions need to be answered in multiple domains, hence the organisation of grid columns.
 
 ![SAF Grid](diagrams/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
@@ -44,9 +44,9 @@ The  [Aspects](userdoc/aspects.md) are oriented by the kind of information needs
 ## Recursive Application of the Framework due to System decomposition
 Typically, a system consists of subsystems in multiple [hierarchy or decomposition](faq.md#system-hierarchy) levels. 
 
-The Functional, Logical and Physical Domain are applied recursively.
+The Functional, Logical and Physical Domain are applied recursively for system and subsystems.
 
-Since the Mission Analysis and Stakeholder Requirements definition Processes cover the whole system, they are typically only executed with the top level system scope. (These processes may require iterations when something new is learned, e.g. new stakeholders might be discovered during the selection of solutions, which require the content of operational domain viewpoints to be updated)
+Since the Mission Analysis and Stakeholder Requirements definition Processes cover the whole system, they are typically executed with the top level system scope. (These processes may require iterations when something new is learned, e.g. new stakeholders might be discovered during the selection of solutions for a subsystem, requiring the content of operational domain viewpoints to be updated)
 
 The same applies to the Common Domain, it is also valid for all decomposition levels.
 ![to do](diagrams/Under_construction_icon-red.svg)*here an image of the vee should be shown with decomposition levels and domains covering the whole vee and others repeated. we could also show a decomposition tree, and the dev workflow tree with the gates (scr, srr, pdr, cdr)*
