@@ -61,6 +61,7 @@ The MBSE work on system of systems could share a common model supportin a concep
 The approach should be selected according to the constraints of the SoS scenario; the degree of involvement of different organization cooperation in an SoS MBSE effort, especially the stakeholders having an interest in the SoS model.
 
 ## Typical Engineering Workflow
+
 {: .warning }
 here an image of the Vee should be placed with domains showing where on the vee, or a workflow with the gates. a detail view should show flow through the viewpoints, perhaps with key concerns they adress.
 This is complex. details must go to multiple sub pages, possibly organized by SEHB phases. There are also different usage scenarios of SAF
