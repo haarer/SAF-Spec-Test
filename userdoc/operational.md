@@ -1,6 +1,6 @@
 ---
 title: Operational Domain
-parent: "Viewpoints
+parent: "Viewpoints"
 layout: default
 has_children: true
 nav_order: 20
