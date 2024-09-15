@@ -5,11 +5,13 @@
 
 |**Domain**|**Aspect**|**Maturity**|
 | --- | --- | --- |
-|[{{ vp.Domain }}](/userdoc/domains.html#{{ vp.Domain | downcase }}-domain)|[{{ vp.Aspect }}](../aspects.html#{{ vp.Aspect | downcase | replace: " ","-" | replace: "&",""}}-aspect)|![{{ vp.Maturity }}](/diagrams/Symbol_confirmed.png )[released](../maturity.html#released)|
+|[{{ vp.Domain }}](../domains.html#{{ vp.Domain | downcase }}-domain) |[{{ vp.Aspect }}](../aspects.html#{{ vp.Aspect | downcase | replace: " ","-" | replace: "&",""}}-aspect)|<img src="/assets/images/maturity-{{ vp.Maturity | replace: " ", "-"  }}.svg" height="20" width="20" >[{{ vp.Maturity }}](../maturity.html#{{ vp.Maturity }})|
+
+
 
 ## Example
 {% for ex in examples %}
-![{{ ex.Name }}](/assets/images/examples_md/{{ ex.ID }}.svg)
+<img src="../../diagrams/examples_md/exa{{ ex.ID }}.svg" />
 {% endfor %}
 
 ## Purpose

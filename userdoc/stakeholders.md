@@ -4,9 +4,9 @@ parent: "User Documentation"
 layout: default
 nav_order: 2
 ---
-![System Architecture Framework](../diagrams/Banner_SAF.png)
+![System Architecture Framework](../assets/images/Banner_SAF.png)
 # SAF User Documentation : Stakeholders
-![SAF_Stakeholder_Definition](../diagrams/SAF_stakeholder_definition.svg)
+![SAF_Stakeholder_Definition](../assets/images/SAF_stakeholder_definition.svg)
 This section provides a list of the Stakeholder roles considered for the elicitation of concerns for SAF viewpoints. For each, the section lists the concerns that the Stakeholder has that can be addressed by the information in this SAF framework.
 
 Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - is concerned with different characteristics of the system that are affected by its architecture.

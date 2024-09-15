@@ -7,12 +7,12 @@
   "ID" : "_2021x_2_8710274_1700819812340_12506_51948",
   "Documentation" : "",
   "Name" : "FFDS_Standards",
-  "ExampleForVPID" : "C2_CSTD_Table"
+  "ExampleForVPID" : "C2_CSTD"
 }, {
   "ID" : "_2021x_2_8710274_1701361719881_255436_95677",
   "Documentation" : "",
   "Name" : "PNG V3 Terms",
-  "ExampleForVPID" : "C2_TRMD_Table"
+  "ExampleForVPID" : "C2_TRMD"
 }, {
   "ID" : "_2021x_2_6d8019d_1686425540831_788895_27105",
   "Documentation" : "",
@@ -27,7 +27,7 @@
   "ID" : "_2021x_2_6d8019d_1691167076367_766325_27159",
   "Documentation" : "",
   "Name" : "FFDS Capability Mapping Table",
-  "ExampleForVPID" : "F8_SCYM_Table"
+  "ExampleForVPID" : "F8_SCYM"
 }, {
   "ID" : "_18_1_3c00182_1450814089865_467303_50732",
   "Documentation" : "",
@@ -72,7 +72,7 @@
   "ID" : "_19_0_3_6d8019d_1588701641763_935257_603",
   "Documentation" : "",
   "Name" : " Mapping of Functions To Logical Elements",
-  "ExampleForVPID" : "L8_LFUM_Matrix"
+  "ExampleForVPID" : "L8_LFUM"
 }, {
   "ID" : "_18_1_3c00182_1450814089561_466464_50381",
   "Documentation" : "",
@@ -102,7 +102,7 @@
   "ID" : "_2024x_8710274_1717757970886_981437_15535",
   "Documentation" : "",
   "Name" : "POC FFDS Interfaces",
-  "ExampleForVPID" : "P1_PCXE_Table"
+  "ExampleForVPID" : "P1_PCXE"
 }, {
   "ID" : "_2021x_2_8710274_1695638583390_640589_60728",
   "Documentation" : "",
@@ -112,7 +112,7 @@
   "ID" : "_2021x_2_8710274_1698332267659_566525_76783",
   "Documentation" : "",
   "Name" : "Function To Physical",
-  "ExampleForVPID" : "P8_PFUM_Matrix"
+  "ExampleForVPID" : "P8_PFUM"
 }, {
   "ID" : "_2021x_2_8710274_1696593549704_655410_91025",
   "Documentation" : "",
@@ -137,7 +137,7 @@
   "ID" : "_2021x_2_8710274_1697731758989_399225_29861",
   "Documentation" : "",
   "Name" : "Physical Logical Mapping",
-  "ExampleForVPID" : "P8_PLOM_Matrix"
+  "ExampleForVPID" : "P8_PLOM"
 }, {
   "ID" : "_2024x_8710274_1717681657279_28457_15696",
   "Documentation" : "",
@@ -177,12 +177,12 @@
   "ID" : "_2021x_2_6d8019d_1690659181449_174968_28947",
   "Documentation" : "",
   "Name" : "System Requirement Table",
-  "ExampleForVPID" : "F6_SRQD_Table"
+  "ExampleForVPID" : "F6_SRQD"
 }, {
   "ID" : "_2021x_2_6d8019d_1690175660194_875898_26545",
   "Documentation" : "",
   "Name" : "System Requirement Traceability Matrix",
-  "ExampleForVPID" : "F8_SRQT_Matrix"
+  "ExampleForVPID" : "F8_SRQT"
 }, {
   "ID" : "_19_0_3_6d8019d_1587810786253_715619_53557",
   "Documentation" : "",
@@ -197,12 +197,12 @@
   "ID" : "_18_2_3c00182_1453969195787_418001_22174",
   "Documentation" : "",
   "Name" : "FFDS Use Case Table",
-  "ExampleForVPID" : "F1_SUCS_Table"
+  "ExampleForVPID" : "F1_SUCS"
 }, {
   "ID" : "_19_0_3_6d8019d_1587285942009_731496_53319",
   "Documentation" : "",
   "Name" : "FFDS Glossary Table",
-  "ExampleForVPID" : "C2_TRMD_Table"
+  "ExampleForVPID" : "C2_TRMD"
 }, {
   "ID" : "_18_4_3c00182_1480313253427_102055_30380",
   "Documentation" : "",
@@ -212,7 +212,7 @@
   "ID" : "_2021x_2_6d8019d_1690464242065_940654_27027",
   "Documentation" : "",
   "Name" : "Stakeholder Requirement Table",
-  "ExampleForVPID" : "O6_SKRD_Table"
+  "ExampleForVPID" : "O6_SKRD"
 }, {
   "ID" : "_19_0_3_6d8019d_1589112275163_56055_429",
   "Documentation" : "",
@@ -222,7 +222,7 @@
   "ID" : "_2021x_2_6d8019d_1684238699939_732363_27021",
   "Documentation" : "",
   "Name" : "SAR and FDN Capability Mapping Table",
-  "ExampleForVPID" : "O8_OCYM_Table"
+  "ExampleForVPID" : "O8_OCYM"
 }, {
   "ID" : "_19_0_4_26f0132_1631262476561_915469_2823",
   "Documentation" : "",
@@ -232,7 +232,7 @@
   "ID" : "_2021x_2_6d8019d_1690572862862_552366_28803",
   "Documentation" : "",
   "Name" : "Operational Domain Item Table",
-  "ExampleForVPID" : "O2_ODIK_Table"
+  "ExampleForVPID" : "O2_ODIK"
 }, {
   "ID" : "_19_0_3_6d8019d_1600338266852_212206_17675",
   "Documentation" : "",
@@ -252,12 +252,12 @@
   "ID" : "_19_0_3_6d8019d_1600601151467_278216_18976",
   "Documentation" : "",
   "Name" : "Operational Performer Table",
-  "ExampleForVPID" : "O2_OPRF_Table"
+  "ExampleForVPID" : "O2_OPRF"
 }, {
   "ID" : "_19_0_3_26f0132_1601621883205_124843_619",
   "Documentation" : "",
   "Name" : "SAR and FDN Operational Process Mapping Table",
-  "ExampleForVPID" : "O8_OPRM_Table"
+  "ExampleForVPID" : "O8_OPRM"
 }, {
   "ID" : "_19_0_3_6d8019d_1589112272824_169753_204",
   "Documentation" : "",

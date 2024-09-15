@@ -38,7 +38,7 @@ The [Domains](userdoc/domains.md)  are oriented by a typical engineering workflo
 ### Aspects follow kinds of concerns
 The  [Aspects](userdoc/aspects.md) are oriented by the kind of information needs, e.g. questions about structure are answered by viewpoints in the taxonomy and structure aspect. Typically similar kinds of questions need to be answered in multiple domains, hence the organisation of grid columns.
 
-![SAF Grid](diagrams/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
+![SAF Grid](assets/images/SAF_Viewpoint-Grid-Structuring-Formalism.svg)
 
 
 ## Recursive Application of the Framework due to System decomposition
