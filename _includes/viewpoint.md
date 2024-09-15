@@ -1,6 +1,6 @@
-{% assign vp_tmp = site.data.viewpoints | where: "Name",page.title %}
+{% assign vp_tmp = site.data.viewpoints | where: "Name", page.title %}
 {% assign vp = vp_tmp.first %}
-
+{% assign examples = site.data.mdexamples | where: "ExampleForVPID", vp.VP_ID %}
 **{{ vp.VP_ID }}** {{ vp.Name }}
 
 |**Domain**|**Aspect**|**Maturity**|
@@ -8,7 +8,10 @@
 |[{{ vp.Domain }}](/userdoc/domains.html#{{ vp.Domain | downcase }}-domain)|[{{ vp.Aspect }}](../aspects.html#{{ vp.Aspect | downcase | replace: " ","-" | replace: "&",""}}-aspect)|![{{ vp.Maturity }}](/diagrams/Symbol_confirmed.png )[released](../maturity.html#released)|
 
 ## Example
-![{{ vp.Example }}](../../diagrams/vp-examples/{{ vp.Example }})
+{% for ex in examples %}
+![{{ ex.Name }}](/assets/images/examples_md/{{ ex.ID }}.svg)
+{% endfor %}
+
 ## Purpose
 {{ vp.Purpose }}
 ## Applicability

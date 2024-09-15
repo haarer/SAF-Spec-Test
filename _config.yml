@@ -10,6 +10,13 @@ aux_links:
 
 logo: "/assets/images/Banner_SAF_gross.png"
 
+assets:
+    sources:
+        - assets       
+        - assets/images          
+        - assets/css   
+        - assets/images/examples_md
+
 plugins:
   - jekyll-relative-links
 

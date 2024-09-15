@@ -6,3 +6,4 @@
 * google analytics
 * favico
 * fix site footer link bullets
+* fix problem with assets (links to example images)
