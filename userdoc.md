@@ -50,7 +50,7 @@ Since the Mission Analysis and Stakeholder Requirements definition Processes cov
 
 The same applies to the Common Domain, it is also valid for all decomposition levels.
 
-{: .warning }
+{: .todo }
 here an image of the vee should be shown with decomposition levels and domains covering the whole vee and others repeated. we could also show a decomposition tree, and the dev workflow tree with the gates (scr, srr, pdr, cdr)*
 
 ## Application to System of Systems
@@ -62,7 +62,7 @@ The approach should be selected according to the constraints of the SoS scenario
 
 ## Typical Engineering Workflow
 
-{: .warning }
+{: .todo }
 here an image of the Vee should be placed with domains showing where on the vee, or a workflow with the gates. a detail view should show flow through the viewpoints, perhaps with key concerns they adress.
 This is complex. details must go to multiple sub pages, possibly organized by SEHB phases. There are also different usage scenarios of SAF
 

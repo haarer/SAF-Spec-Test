@@ -17,6 +17,17 @@ relative_links:
   enabled:     true
 
 callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  todo:
+    title: ToDo
+    color: purple
   warning:
     title: Warning
     color: red
