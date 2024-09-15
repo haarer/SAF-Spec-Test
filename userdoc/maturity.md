@@ -7,7 +7,7 @@ nav_order: 90
 # Viewpoint Maturity
 **Definition of maturity for viewpoints**
 ## proposed
-![Proposed](../assets/images/maturity-proposed.svg) The viewpoint is newly proposed.
+<img src="/assets/images/maturity-proposed.svg" height="20" width="20" > The viewpoint is newly proposed.
 
 **Minimum Requirements**
 * Description as Markdown File according to viewpoint template
@@ -17,7 +17,7 @@ nav_order: 90
 * stakeholders specified
 
 ## under construction
-![Proposed](../assets/images/maturity-under-construction.svg) The viewpoint is under construction.
+<img src="/assets/images/maturity-under-construction.svg" height="20" width="20" > The viewpoint is under construction.
 It is a work in progress and subject of ongoing discussion in the SAF Working group. There may be major issues, regarding description quality, completeness and consistency with the rest of the framework.
 
 **Minimum Requirements**
@@ -28,7 +28,7 @@ additionally:
 
 
 ## released
-![Released](../assets/images/maturity-released.png) The viewpoint is released.
+<img src="/assets/images/maturity-released.svg" height="20" width="20" >The viewpoint is released.
 Viewpoint in this category have been discussed in the SAF Working Group and only minor issues remain.
 
 **Minimum Requirements**
