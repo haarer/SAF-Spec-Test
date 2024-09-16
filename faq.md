@@ -33,7 +33,7 @@ See the [SAF domain Documentation](userdoc/domains.md)
 
 ## Aspects
 **What are Aspects?**
-The columns of the SAF grid are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kind appear together in the same aspect, and typically the same information need appears in multiple domains. 
+The columns of the SAF grid are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kinds appear together in the same aspect, and typically the same information need appears in multiple domains. 
 See the [SAF aspect Documentation](userdoc/aspects.md)
 
 ## Grid
