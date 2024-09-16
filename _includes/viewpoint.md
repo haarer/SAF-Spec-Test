@@ -31,13 +31,14 @@
 ## Applicability
 {{ vp.Applicability }}
 ## Presentation
-{% for pres in vp.Presentations %}
+{% for pres in vp.Presentation %}
 {{ pres }}
 {% endfor %}
 ## Stakeholder
 ## Concern
-{% for concern in vp.Concerns %}
-* [{{ concern.Body }}](../concerns.md#{{ concern.ID }})
+{% for concern_id in vp.Concern %}
+{% assign concern = site.data.concerns | where: "ID", concern_id %}
+* [{{ concern.first.Name }}](../concerns.html#{{ concern_id }} )
 {% endfor %}
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
