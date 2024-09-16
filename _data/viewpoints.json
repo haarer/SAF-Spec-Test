@@ -10,6 +10,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring Operational Capabilities, their composition, specialization, and dependency relationships." ],
   "Concern" : [ "_2021x_2_8710274_1674479775616_727128_23367", "_2021x_2_8710274_1674576759229_963784_23628" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -23,6 +24,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring states, and state transitions. \nNote: References to model elements that are dependent of states, or transitions shall be shown as callout, or compartment notation.", "A tabular format listing states, state transitions, and the conditons to be fullfilled before the transition will occur. References to model elements that are dependent of states (Domain Item Kinds, System Functions, System Use Cases, etc.), or transitions shall be shown in the table." ],
   "Concern" : [ "_2021x_2_8710274_1674576759199_155259_23602", "_2021x_2_8710274_1674576759086_661396_23504" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1566037895381_430904_56516", "_19_0_2_ebf0350_1554653234809_156018_43552", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -36,6 +38,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring the identified Operational Performers playing a role in the Operational Context being addressed." ],
   "Concern" : [ "_2021x_2_8710274_1674576758994_334020_23436", "_2021x_2_8710274_1674576759056_423032_23477", "_2021x_2_8710274_1674576759083_315449_23499" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -49,6 +52,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A use case diagram featuring model elements representing System Use Cases, System Context, and System Context Elements. The System Context shall be used as subject of the use case. The System Context Elements playing a Role in the Use Case shall be connected to the Use Case by associations.\nNote: System Use Case pre- and postconditions shall be represented either by callout or compartment notation.\nRelationship to operational stories can be related to the use case in order trace to mission analysis.", "A tabular format listing the System Use Cases, the System Use Case pre- and postconditions, the System Context, and the System Context Elements. Additionaly, the relationship to operational stories, if applicable." ],
   "Concern" : [ "_2021x_2_6d8019d_1674945898325_22078_35809", "_2021x_2_8710274_1674576758841_451500_23327", "_2021x_2_8710274_1697469571914_800497_36599", "_2021x_2_6d8019d_1674922633861_96675_24986", "_2021x_2_6d8019d_1675459822996_961402_23325" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -62,6 +66,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) depicting the elements available in a specific context. At least one BDD is used per identified context featuring\n* one block representing the Physical System, i.e., the system of interest\n* one block representing the specific Physical System Context\n* several blocks representing Physical Context Elements such as Physical User, Physical External System, and Physical Environment that are present in the Physical System Context\n* composition relationships attaching the Physical Context Elements and the Physical System to the Physical System Context block" ],
   "Concern" : [ "_2021x_2_8710274_1674576758710_759449_23186", "_2021x_2_8710274_1674576758891_776196_23368", "_2021x_2_8710274_1674576759091_673143_23507" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -75,6 +80,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A block definition diagram (BDD) featuring the taxonomy of types of technical, operational, and business standards, guidance, and policy applicable to the system of interest.", "A table format listing technical, operational, and business standards, guidance, and policy applicable to the system of interest." ],
   "Concern" : [ "_2021x_2_8710274_1700821579663_211989_58619", "_2021x_2_8710274_1700821592720_121043_58626", "_2021x_2_8710274_1700821558610_489259_58612" ],
+  "Stakeholders" : [ ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -88,6 +94,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A table format listing  terms ...[tbd].", "A table format listing abbreviations and relationship to standards if applicable... [tbd]." ],
   "Concern" : [ "_2021x_2_8710274_1701365358930_669398_98281", "_2021x_2_8710274_1701365325155_727486_98279" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -101,6 +108,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A use case diagram featuring model elements representing operational stories, the context in they're taking place and operational performers involved. \nNote: Illustrations, drawings, sketches, etc., and/or descriptions in free text may provide a comprehensive understanding of the operational mission." ],
   "Concern" : [ "_2021x_2_8710274_1674576758881_297740_23364" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -114,6 +122,7 @@
   "Maturity" : "under construction",
   "Presentation" : [ "A content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Views.", "A table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information" ],
   "Concern" : [ "_2021x_2_8710274_1696579743010_350358_24968", "_2024x_26f0132_1719133841790_534930_15826" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129555802_233661_14716" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -127,6 +136,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A table featuring the SCM_VPConcerns elements of the SAF, and their relations to SCM_Viewpoints and SCM_VPStakeholders" ],
   "Concern" : [ "_2024x_26f0132_1719129886772_493463_14747", "_2024x_26f0132_1719130076292_184990_14761", "_2024x_26f0132_1719129962342_738625_14755" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -140,6 +150,7 @@
   "Maturity" : "released",
   "Presentation" : [ "An activity diagram featuring the ordered execution of Operational Process Actions. Operational Processes may be linked in terms of control flow and/or data flow visualizing the Operational Exchanges needed. \nNote: Operational Process Actions are assigned to Operational Roles and therefore in a more general manner to Operational Performers." ],
   "Concern" : [ "_2021x_2_8710274_1674576759250_575950_23644", "_2021x_2_8710274_1674576758680_939269_23154" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -153,6 +164,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring System Capabilities, their composition, specialization, and dependency relationships.\nNote: The relationship to operational capabilities shall be shown if applicable.", "A tabular format listing System Capabilities, their composition, specialisation, and dependency relationships, as well as relations to operational capabilities." ],
   "Concern" : [ "_2021x_2_8710274_1674576759126_506455_23537" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -166,6 +178,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A FBS to LBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Logical Breakdown Structure (LBS)\n* Allocation from system functions and system partial functions to logical system elements" ],
   "Concern" : [ "_2021x_2_8710274_1674576759104_328839_23526" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -179,6 +192,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring the physical system block and physical blocks for any kind of physical element, HW or SW elements, the system is composed of. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles." ],
   "Concern" : [ "_2021x_2_8710274_1674576759117_113432_23531" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -192,6 +206,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A sequence diagram featuring the flow of control between Operational Performers of an Operational Context to achieve one outcome of an Operational Story. \nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifelines representatives are part properties typed by Operational Performers." ],
   "Concern" : [ "_2021x_2_8710274_1674576759199_457359_23612" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -205,6 +220,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring the logical system block and logical blocks for any kind of logical element the system is composed of. These elements are connected to the system block by means of aggregation relationships. \nNote: Multiple relationships to a kind of element are allowed meaning, that this kind of element is used in several roles." ],
   "Concern" : [ "_2021x_2_8710274_1674576758828_494985_23322" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -218,6 +234,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A matrix featuring SCM_VPStakeholder elements and SCM_VPConcern elements as rows and columns, and a marking in cells where a SCM_ConcernRationale connects a stakeholder with a concern.", "A table featuring the SCM_ConcernRationales that connect SCM_VPStakeholders and SCM_VPConcerns, and the rationales documentation." ],
   "Concern" : [ "_2024x_26f0132_1719129962342_738625_14755", "_2024x_26f0132_1719744888608_624464_37315" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -231,6 +248,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring Physical Interface blocks with ports, and flow properties. Compatibility between Physical Interface blocks is expressed by associations and association blocks. Physical Interface blocks may be specialisations of others (use of generalisation).\nNote: When ports are used these shall be proxy ports and be typed by interface blocks.", "A tabular format listing Physical Interface blocks, their ports, and flow properties." ],
   "Concern" : [ "_2021x_2_8710274_1698695280731_979013_48719", "_2021x_2_8710274_1674576759093_319282_23509", "_2021x_2_8710274_1697542838788_945785_24608" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -244,6 +262,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A sequence diagram featuring the flow of control between SOI and Context Elements Roles of a System Context to achieve one outcome of a System Use Case. \nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines, where time is represented along the vertical axis. The lifelines representatives are part properties typed by a System Context Elements." ],
   "Concern" : [ "_2021x_2_8710274_1674576758841_451500_23327", "_2021x_2_8710274_1674576759095_626726_23511", "_2021x_2_8710274_1697718624828_512543_29114" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -257,6 +276,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring Conceptual Interface blocks with ports, and flow properties.", "A tabular format listing Conceptual Interface blocks, their ports, and flow properties." ],
   "Concern" : [ "_2021x_2_8710274_1698695260372_8568_48717", "_2021x_2_8710274_1674576759154_22704_23559", "_2021x_2_8710274_1674576758891_215548_23373" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1566037895381_430904_56516", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -270,6 +290,7 @@
   "Maturity" : "released",
   "Presentation" : [ "An internal block diagram (IBD) - associated to a system context - featuring the SOI, the system context elements, and the connectors for each identified interface from SOI to the respective context elements. An interface is an interaction point for interaction of the SOI to with context elements. Item flows are defined for each exchange on the identified interface. Connectors/ports may contain reference to the interface documents if applicable. Ports may be structured as appropriate to manage and structure the information.\nNote: more than one IBD focused on different areas of interest may be used in oder to keep the view comprehensive. Depending on the Stakeholder concerns the item exchange information might be suppressed.", "A tabular format listing the identified interfaces of the soi (ports), referencing interface definitions (port types) ,connections (connector) to system context elements, and information exchange (item flows) conveyed over these connections. It is advised to have multiple tables focusing on certain aspects to keep the view comprehensive, e.g. table focusing on contexts or on certain interface partners." ],
   "Concern" : [ "_2021x_2_8710274_1674576758710_799233_23181", "_2021x_2_8710274_1674576758808_527146_23298", "_2021x_2_8710274_1674576758971_129300_23418", "_2021x_2_8710274_1674576758778_979635_23258", "_2021x_2_8710274_1674576759154_22704_23559" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1566037895381_430904_56516", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -283,6 +304,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A tabular format listing the relationships of System Capabilities to Operational Capabilities, System Use Cases, System Process Activities, and System Requirements." ],
   "Concern" : [ ],
+  "Stakeholders" : [ ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -296,6 +318,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A table featuring the stereotypes of the SAF profile and their documentation." ],
   "Concern" : [ "_2024x_26f0132_1719746308347_570628_39136" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722", "_2024x_26f0132_1719129555802_233661_14716" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -309,6 +332,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A Profile Diagram featuring SCM_Concept elements for the exposed concepts of a viewpoint, stereotypes from the SAF Profile implementing the concepts, and SCM_RealizeConcept relationships tracing the implementation to the implemented concept. If concepts are implemented directly by UML Metaclasses or by SysML profile elements, they shall be shown on the diagram and related to the concepts. There are additional relationships SCM_Attribute, SCM_TypedBy and SCM_ContainedIn, that can be used to specify details of the implementation, e.g. if a concept is to be implemented by the fact that one element is part of an other element. Please see the SAF Development Guide how to do this." ],
   "Concern" : [ "_2024x_26f0132_1719130358584_780281_14792" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129555802_233661_14716" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -322,6 +346,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A tabular format listing the relationships of Operational Process Activities to Operational Capabilities, Operational Stories, and Operational Performers." ],
   "Concern" : [ "_2021x_2_8710274_1674576758928_485242_23392" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -335,6 +360,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A Block Definition Diagram (BDD) featuring *SCM_VPStakeholder* elements, and inheritance relationships if applicable.", "A table featuring *SCM_VPStakeholder* elements, their documentation, and the *SCM_VPConcern* elements representing the concerns of the stakeholders regarding to SAF Viewpoints." ],
   "Concern" : [ "_2024x_26f0132_1719129962342_738625_14755", "_2024x_26f0132_1719129843876_724811_14744" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -348,6 +374,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A Matrix featuring the Concepts, Viewpoints and Stereotypes of the SAF profile." ],
   "Concern" : [ "_2024x_26f0132_1719746308347_570628_39136" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722", "_2024x_26f0132_1719129555802_233661_14716" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -361,6 +388,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A tabular format listing the relationships of Operational Capabilities to Stakeholder Requirements, Operational Stories, and Operational Process Activities." ],
   "Concern" : [ "_2021x_2_8710274_1674576758591_594647_23070" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_2021x_2_8710274_1674680055517_468796_22923", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -374,6 +402,7 @@
   "Maturity" : "released",
   "Presentation" : [ "One or more more block definition diagrams (BDD) featuring activities representing System Processes, System Functions, System Partial Functions, and their aggregation composing the functional breakdown structure.", "Tool specific analysis diagram featuring the relationships between System Processes, System Functions, and System Partial Functions." ],
   "Concern" : [ "_2021x_2_8710274_1674576758790_775644_23272", "_2021x_2_8710274_1674576758728_463822_23204", "_2021x_2_8710274_1674576758649_392764_23120" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -387,6 +416,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A  Physical To Logical Assigment Matrix featuring\n* System Domain Kinds\n* Physical Exchange Kinds\n* Allocation relationship between them" ],
   "Concern" : [ ],
+  "Stakeholders" : [ ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -395,11 +425,12 @@
   "Domain" : "Functional",
   "ID" : "_19_0_4_6d8019d_1618589543897_213858_307",
   "VP_ID" : "F1_SCXD",
-  "Purpose" : [ "The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.). The SOI provides and requests context functions. The SOI shall be able handle events and effects from the outside. In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized." ],
+  "Purpose" : [ "The System Context Definition Viewpoint defines how the SOI is embedded in its environment, i.e., where the boundary of the SOI is and who the external entities are the SOI interacts with (e.g., users, other external systems, environmental conditions, etc.).  In addition, the System Context Definition Viewpoint serves as architecture concept to demonstrate how the architecture description defined in the Operational Context Definition Viewpoint is realized." ],
   "Applicability" : "The System Context Definition Viewpoint supports the \"prepare for system requirement definition\" activity included in the \"System Requirements Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.3] and contributes to the artifact \"System Requirements Definition Report\".",
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring the following elements\n* a Logical element block representing SOI in the logical domain\n* a Logical context block representing the addressed context in the logical domain\n* Logical context element blocks for each relevant context element\n* a composition relationship from context block to each context element used in the context\n* a composition relationship from context block to the SOI", "A tabular format listing context roles, context elements, and respective descriptions." ],
   "Concern" : [ "_2021x_2_8710274_1674576759075_442496_23491", "_2021x_2_8710274_1674576758971_129300_23418", "_2021x_2_8710274_1674576758891_776196_23368", "_2021x_2_8710274_1674576759091_673143_23507" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -413,6 +444,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A content diagram  featuring a graphical grid representation containing graphical representations of the aspects, domains, and viewpoints available in the framework.", "A table featuring the frameworks viewpoints, the domains, aspects, viewpoint implementation diagrams and maturity." ],
   "Concern" : [ "_2024x_26f0132_1719129513706_329066_14708", "_2024x_26f0132_1719130165383_541840_14769", "_2024x_26f0132_1719129141456_206905_14250" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722", "_2024x_26f0132_1719129555802_233661_14716" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -426,6 +458,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A Block Definition Diagram (BDD)  featuring elements of SCM_Concept representing SE concepts to be supported by SAF. SCM_Concept can be classes of items, relations between items. It is also possible to create relations to relations (SCM_Concepts can be Classes, Associations and Association Classes).\nFor relational concepts, it is reqired to display the direction, and to define the multiplicities. See SAF Development Guide for concept modeling conventions", "A table featuring SCM_Concepts and their descriptions. In case of relational concepts the ends are shown also." ],
   "Concern" : [ "_2024x_26f0132_1719129923965_578278_14750" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -439,6 +472,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A) For each given context, an internal block diagram (IBD is used to identify the physical interfaces, the item flows, that are exchanged on that interfaces, and related documentation.\nNote: To understand the interfaces, a mapping of protocol layers may be depicted.", "B) A tabular format providing a list of all the defined external interfaces and the applicable documentation\n* context element kind (environment, external entity, physical user, etc.)\n* context element role name\n* port name and reference to port type\n* reference to context element type", "C) A tabular format listing the applicable standards, protocols and formats for the item flows exchanged via the identified interfaces." ],
   "Concern" : [ "_2021x_2_8710274_1674576758710_759449_23186", "_2021x_2_8710274_1674576759247_884832_23642", "_2021x_2_8710274_1674576758698_132348_23172", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1674576758891_215548_23373" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -452,6 +486,7 @@
   "Maturity" : "released",
   "Presentation" : [ "An internal block diagram (IBD) - associated to the operational context - featuring the interconnected operational performers in their respective operational role, and the operational item exchange per operational connection.", "A tabular format listing [tbd]." ],
   "Concern" : [ "_2021x_2_8710274_1674576758910_672482_23380" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -465,6 +500,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring Domain Item Kinds and their relationships in terms of generalization, composition, or general association. \nNote: Domain Item Kinds are managed in the domain knowledge package of the SOI, the Domain Item Kinds are visible and usable to all sub elements of the SOI. Domain Item Kinds shall be value types or blocks. ", "A tabular format listing the Domain Item Kinds, and their relationships." ],
   "Concern" : [ "_2021x_2_6d8019d_1693308265004_421376_24972" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -478,6 +514,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A assignment matrix featuring\n* Logical Element Breakdown Structure showing Logical Element Roles and Logical Elements\n* Physical Element Breakdown Structure showing physical element roles and physical elements\n* Allocation relationship from logical system element roles to physical system element roles" ],
   "Concern" : [ "_2021x_2_8710274_1698399385413_529894_33129" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -491,6 +528,7 @@
   "Maturity" : "released",
   "Presentation" : [ "An activity diagram featuring the ordered execution of System Process Actions. The activity diagram swim lanes are typed with Context Element usage and SOI usage from the same System Context. \nNote: In order to improve the clarity of presentation it may be appropriate to use several activity diagrams for one System Process.", "A tabular format listing all identified System Functions, the System Processes in which they appear, and the Comtext Exchange with the Context Functions." ],
   "Concern" : [ "_2021x_2_8710274_1674576758952_658537_23403", "_2021x_2_8710274_1674576758710_799233_23181", "_2021x_2_8710274_1674576758674_250912_23143", "_2021x_2_8710274_1674576758630_745758_23103", "_2021x_2_8710274_1674576758960_189958_23415", "_2021x_2_8710274_1674576758798_462644_23290", "_2021x_2_8710274_1674576758808_527146_23298", "_2021x_2_8710274_1674576758924_539039_23390", "_2021x_2_8710274_1674576758649_392764_23120" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -504,6 +542,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A sequence diagram featuring the flow of control between Internal Logical Elements of the SOI.\nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifeline representatives are part properties typed by Logical System Elements." ],
   "Concern" : [ "_2021x_2_8710274_1674576758760_611640_23247", "_2021x_2_8710274_1674576758991_165534_23433", "_2021x_2_8710274_1674576759095_626726_23511" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653238260_245225_43556", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698", "_19_0_2_ebf0350_1567280920665_435327_53193" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -517,6 +556,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) depicting the identified, analysed, and classified Stakeholders, their interrelaions and their relations to the Intended Solution. Relations to represented Operational Performers shall also be shown." ],
   "Concern" : [ "_2021x_2_8710274_1674576758728_957718_23218", "_2021x_2_8710274_1674576759190_739382_23597", "_2021x_2_8710274_1674576759059_36560_23481", "_2021x_2_8710274_1674576758881_572143_23359", "_2021x_2_8710274_1674576758668_120660_23139", "_2021x_2_8710274_1674576759083_315449_23499" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1567282723132_468249_52793", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -530,6 +570,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A FBS_to_PBS mapping matrix featuring\n* Functional Breakdown Structure (FBS)\n* Physical Breakdown Structure (PBS)\n* mapping (it is a derived relationship) from system functions and system partial functions to physical SOI elements" ],
   "Concern" : [ "_2021x_2_8710274_1674576758941_524652_23399", "_2021x_2_8710274_1674576759216_889664_23621", "_2021x_2_8710274_1674576758889_521511_23366", "_2021x_2_8710274_1698399553646_852568_33150" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -543,6 +584,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring a claim-argument-evidence pattern (CAE)." ],
   "Concern" : [ "_2021x_2_8710274_1674576758703_316775_23176" ],
+  "Stakeholders" : [ ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -556,6 +598,7 @@
   "Maturity" : "released",
   "Presentation" : [ "One or more IBDs featuring the SOI boundary, the logical elements of the SOI, as well as the connectors for each identified SOI interface delegation to logical SOI elements. An interface is a connection resource for hooking on the logical SOI elements to other logical SOI elements. Item flows are defined for each exchange on the identified interface.\nNote: Please use more than one IBD focused on different areas of interest to keep the view comprehensive." ],
   "Concern" : [ "_2021x_2_8710274_1674576758760_611640_23247", "_2021x_2_8710274_1674576758991_165534_23433", "_2021x_2_8710274_1674576758825_79081_23317", "_2021x_2_8710274_1674576758878_612030_23357" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -569,6 +612,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A tabular format listing\n* unique requirement ID, text, and attributes,\n* traceability reference to Stakeholder Requirements,\n* traceability reference to depended Requirements on the same level of abstraction." ],
   "Concern" : [ "_2021x_2_8710274_1674576758978_464279_23425", "_2021x_2_8710274_1674576758860_195868_23350", "_2021x_2_8710274_1674576758640_180559_23118", "_2021x_2_8710274_1674576758798_122991_23285", "_2021x_2_8710274_1674576759042_480392_23467", "_2021x_2_8710274_1674576758563_692887_23057", "_2021x_2_8710274_1674576758778_979635_23258" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1567281039295_665940_53199", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -582,6 +626,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "Activity Diagram featuring System Partial Functions, functional exchange between partial functions. There are explicitely no Swimlanes and no allocations to structure." ],
   "Concern" : [ "_2021x_2_8710274_1674576758790_775644_23272", "_2021x_2_8710274_1674576758728_463822_23204" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -595,6 +640,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A dependency matrix featuring relationships for every System Requirement to the functional domain level\n* System Use Case\n* System Capability\n* System Context Definition\n* System Context Exchange\n* System Context Interaction\n* System Process\n* System State" ],
   "Concern" : [ "_2021x_2_8710274_1674576758848_939582_23337", "_2021x_2_8710274_1674576758563_692887_23057", "_2021x_2_8710274_1674576758640_156873_23115" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567281039295_665940_53199" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -608,6 +654,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring Operational Domain Item Kinds and their relationships.", "A Table featuring Operational Domain Item Kinds, their relationships and their Documentation" ],
   "Concern" : [ "_2021x_2_6d8019d_1693570065115_738458_24748" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1554653234809_156018_43552", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -621,6 +668,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A block definition diagram (BDD) featuring Operational Performers. and their relations in terms of decomposition or generalization at a level of detail required for problem understanding and analysis. \nNote: Identified Stakeholders are related to Operational Performers if appropriate.", "A table containing operational performers, their inter relations  and relations to stakeholders" ],
   "Concern" : [ "_2021x_2_8710274_1674576759040_585536_23465", "_2021x_2_8710274_1674576759028_333016_23460" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -634,6 +682,7 @@
   "Maturity" : "released",
   "Presentation" : [ "A tabular format lisiting\n* unique requirement ID, text, and attributes,\n* traceability reference to justifying model artefacts, e.g. operational stories, operational capabilities, identified concerns of stakeholders, and compliance statements\nNote: Stakeholder Requirements are to be structured in a way that the Stakeholder behind the Requirement is identifiable. When appropriate, the relationships between identified Stakeholder Requirements are and the justifying model artefacts, Operational Story, Operational Capability, Operational Performer, Operational Process, and Operational Exchange are presented.\n* \"One Requirement Package for each Stakeholder\" is a best-practice modeling rule. A package contains the Requirements specific for one Stakeholder.\n* Even if different Stakeholders may have intersecting interests and / or concerns resulting in a similar set of Requirements, each Stakeholder shall have its own set managed in a dedicated Requirement Package. Requirements must not be shared due to their different life cycles. Resolving duplications and conflicts is subject of the requirement analysis resulting in an agreed and consolidated set of System Requirements." ],
   "Concern" : [ "_2021x_2_8710274_1674576758810_143872_23303", "_2021x_2_8710274_1674576758798_122991_23285", "_2021x_2_8710274_1674576758774_361095_23253", "_2021x_2_8710274_1674576758818_166273_23310", "_2021x_2_8710274_1674576759042_480392_23467" ],
+  "Stakeholders" : [ "_19_0_2_ebf0350_1567280211417_154511_52831", "_19_0_2_ebf0350_1554653236737_36605_43554", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -647,6 +696,7 @@
   "Maturity" : "proposed",
   "Presentation" : [ "A View and Viewpoints Diagram featuring one *SCM Viewpoint* Element, one *SCM_View* element, a *conform* relationship among them. Additionally all *SCM_Concept* elements that are of interest in the viewpoint. Additionally *expose* relationships for all concepts that help satisfy the viewpoints concerns.\nNote, that the consequence of exposing a concept is, that the implementation of the concept must appear in the diagram/table/matrix that implements the viewpoint." ],
   "Concern" : [ "_2024x_26f0132_1719130644780_901120_14852", "_2024x_26f0132_1719130113094_957740_14764", "_2024x_26f0132_1719130556191_78836_14843", "_2024x_26f0132_1719130165383_541840_14769", "_2024x_26f0132_1719130076292_184990_14761", "_2024x_26f0132_1719130608615_351381_14849", "_2024x_26f0132_1719130583650_18980_14846", "_2024x_26f0132_1719130002321_367858_14758" ],
+  "Stakeholders" : [ "_2024x_26f0132_1719129287848_367992_14650", "_2024x_26f0132_1719129568628_636824_14722", "_2024x_26f0132_1719129555802_233661_14716" ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -660,5 +710,6 @@
   "Maturity" : "released",
   "Presentation" : [ "One or more IBDs featuring the SOI boundary, the parts representing physical elements of the SOI. At the SOI boundary, the interfaces of the SOI represented as proxy ports. At the parts, proxy ports representing the SOI parts interfaces. Binding Connectors for each identified SOI interface delegated to physical SOI elements interfaces.  connectors representing connections between interfaces of SOI parts. Item flows are defined for each planned exchange on the identified interfaces.\nNote: Please use more than one IBD focused on different areas of interest to keep the view comprehensive.\nNote: Ports may be nested to organize interfaces, but it is recommended to use only only one level.", "A Table representing the content or part of the ibd content." ],
   "Concern" : [ "_2021x_2_8710274_1674576758600_423008_23078", "_2021x_2_8710274_1674576759247_884832_23642", "_2021x_2_8710274_1674576758561_575110_23056", "_2021x_2_8710274_1698410513910_480926_28625", "_2021x_2_8710274_1674576758891_215548_23373" ],
+  "Stakeholders" : [ "_19_0_2_26f0132_1562303526473_933874_92402", "_19_0_2_26f0132_1562303526473_525021_92401", "_19_0_2_ebf0350_1554653241806_566270_43560", "_19_0_2_26f0132_1562303526473_410133_92403", "_19_0_2_ebf0350_1567337062655_160733_52757", "_19_0_2_26f0132_1562303526473_98534_92400", "_19_0_2_ebf0350_1555170687022_190510_43698" ],
   "subelements" : [ ]
 } ]

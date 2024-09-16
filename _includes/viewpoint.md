@@ -35,6 +35,10 @@
 {{ pres }}
 {% endfor %}
 ## Stakeholder
+{% for stk_id in vp.Stakeholders %}
+{% assign stk = site.data.stakeholders | where: "ID", stk_id %}
+* [{{ stk.first.Name }}](../stakeholders.html#{{ stk_id }} )
+{% endfor %}
 ## Concern
 {% for concern_id in vp.Concern %}
 {% assign concern = site.data.concerns | where: "ID", concern_id %}
