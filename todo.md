@@ -24,3 +24,5 @@
 * favico
 * switchable examples (rhy, sparx)
 * slide examples ?
+* linkable literature references from model
+* move definitions cited to footnotes? See Stakeholder File for example
