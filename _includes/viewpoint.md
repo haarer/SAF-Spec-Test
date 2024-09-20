@@ -48,17 +48,18 @@
 The following Stereotypes / Model Elements are used in the Viewpoint:
 {% assign this_exposes = site.data.exposes | where: "Viewpoint.Name", vp.Name %}
 {% assign this_concepts = this_exposes | map: "ExposedConcept" %}
+{% assign t_i = "" | split: "" %}
+
 {% for c in this_concepts %}
-{% assign this_implementation = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID %}
-* [{{ this_implementation.first.RealizationOfConcept.Name }}](../stereotypes.html#{{ this_implementation.first.RealizationOfConcept.ID }})
+{% assign r = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID | map: "RealizationOfConcept" |map: "ID"%}
+{% assign t_i = t_i | concat: r | uniq%}
+{% endfor %}
+
+{% for c in t_i %}
+{% assign real = site.data.realizeconcept | where: "RealizationOfConcept.ID", c %}
+* [{{ real.first.RealizationOfConcept.Name }}](../stereotypes.html#{{ real.first.RealizationOfConcept.ID }})
 {% endfor %}
 
 ## Input from other Viewpoints
 ### Required Viewpoints
 ### Recommended Viewpoints
-
-## exposed concepts
-*just for testing, remove later* 
-{% for c in this_concepts %}
-* {{ c.Name }} {{ c.ID }}
-{% endfor %}
