@@ -46,9 +46,19 @@
 {% endfor %}
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
-{% for st in vp.UsedStereotypes %}
-* [{{ st.Name }}](../stereotypes.md#{{ st.ID }})
+{% assign this_exposes = site.data.exposes | where: "Viewpoint.Name", vp.Name %}
+{% assign this_concepts = this_exposes | map: "ExposedConcept" %}
+{% for c in this_concepts %}
+{% assign this_implementation = site.data.realizeconcept | where: "RealizedConcept.ID", c.ID %}
+* [{{ this_implementation.first.RealizationOfConcept.Name }}](../stereotypes.html#{{ this_implementation.first.RealizationOfConcept.ID }})
 {% endfor %}
+
 ## Input from other Viewpoints
 ### Required Viewpoints
 ### Recommended Viewpoints
+
+## exposed concepts
+*just for testing, remove later* 
+{% for c in this_concepts %}
+* {{ c.Name }} {{ c.ID }}
+{% endfor %}
