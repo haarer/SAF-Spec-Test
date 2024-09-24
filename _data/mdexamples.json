@@ -37,7 +37,7 @@
   "ID" : "_18_2_3c00182_1453969195787_418001_22174",
   "Documentation" : "",
   "Name" : "FFDS Use Case Table",
-  "ExampleForVPID" : "F1_SUCS"
+  "ExampleForVPID" : "F1_SUCD"
 }, {
   "ID" : "_2024x_26f0132_1719139890543_456764_24885",
   "Documentation" : "",
@@ -267,7 +267,7 @@
   "ID" : "_19_0_4_6d8019d_1626717318881_416688_987",
   "Documentation" : "",
   "Name" : "FFDS Use Case A Day in Life of the System",
-  "ExampleForVPID" : "F1_SUCS"
+  "ExampleForVPID" : "F1_SUCD"
 }, {
   "ID" : "_19_0_3_6d8019d_1587810786253_715619_53557",
   "Documentation" : "",

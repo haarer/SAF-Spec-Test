@@ -3,9 +3,9 @@
 * concerns
   * link to viewpoints
 * user doc viewpoints
-  * profile model ref
   * required vp
   * recommended vp
+  * reference to diagram sterotypes is missing
 * dev doc viewpoints
   * profile and concept diagrams
 * dev doc concept diags

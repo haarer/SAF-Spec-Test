@@ -824,7 +824,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_19_0_4_6d8019d_1617380348210_24096_555",
-    "Name" : "SAF_F1_SUCS"
+    "Name" : "SAF_F1_SUCD"
   }
 }, {
   "Name" : "",
@@ -836,7 +836,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1718444814950_893924_22854",
-    "Name" : "SAF_F1_SUCS_Table"
+    "Name" : "SAF_F1_SUCD_Table"
   }
 }, {
   "Name" : "",

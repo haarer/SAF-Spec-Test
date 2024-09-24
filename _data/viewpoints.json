@@ -46,7 +46,7 @@
   "Name" : "System Use Case Viewpoint",
   "Domain" : "Functional",
   "ID" : "_19_0_1_26f0132_1554446728606_740631_45702",
-  "VP_ID" : "F1_SUCS",
+  "VP_ID" : "F1_SUCD",
   "Purpose" : [ "The System Use Case Viewpoint provides an outside view on the system functionality from the perspective of the system users and contributes to the definition of system requirements and system usage. The intended system use may be captured as free-text use case description, as well as storytelling approach on a coarse level of detail. The main system exchange partners participating in the intended system use are identified. System use cases are related to a specific system context. System use cases are derived from operational scenarios elaborated during mission analysis." ],
   "Applicability" : "The System Use Case Viewpoint supports the \"Stakeholder Needs and Requirements Definition Process\" and the \"System Requirements Definition Process\" activities of the INCOSE SYSTEMS ENGINEERING HANDBOOK 2023 [§2.3.5.2, §2.3.5.3] and contributes to the definition of the system boundary and the identification of the expected system function.",
   "Maturity" : "released",
