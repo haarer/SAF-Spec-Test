@@ -3,13 +3,11 @@
 * concerns
   * link to viewpoints
 * user doc viewpoints
-  * required vp
-  * recommended vp
   * reference to diagram sterotypes is missing
 * dev doc viewpoints
   * profile and concept diagrams
 * dev doc concept diags
-
+* bring all dev viewpoints from proposed to construction
 * review all pages
 # fix
 * rand auf komplette seite ausdehnen

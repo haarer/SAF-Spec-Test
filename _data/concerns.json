@@ -1117,7 +1117,10 @@
   "Owner" : "meta-framework",
   "Name" : "What is the implementation of the frameworks concepts?",
   "ID" : "_2024x_26f0132_1719130336926_829742_14789",
-  "ConcernsViewpoints" : [ ],
+  "ConcernsViewpoints" : [ {
+    "Name" : "Viewpoint Implementation Viewpoint",
+    "ID" : "_2024x_26f0132_1719735411756_812404_24423"
+  } ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -1161,7 +1164,10 @@
   "Owner" : "meta-framework",
   "Name" : "Which columns and rows does the frameworks grid have? ",
   "ID" : "_2024x_26f0132_1719130222689_69494_14774",
-  "ConcernsViewpoints" : [ ],
+  "ConcernsViewpoints" : [ {
+    "Name" : "Viewpoint Overview Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639638_993311_27196"
+  } ],
   "subelements" : [ ]
 }, {
   "level" : 0,
@@ -1931,6 +1937,28 @@
   "ConcernsViewpoints" : [ {
     "Name" : "Argumentation Assurance Viewpoint",
     "ID" : "_2021x_2_6d8019d_1674232168228_136119_23449"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "what are the constraints related to se concepts covered by the framework? ",
+  "ID" : "_2024x_1_26f0132_1727272903091_424205_15904",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Concept Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
+  } ],
+  "subelements" : [ ]
+}, {
+  "level" : 0,
+  "Documentation" : "",
+  "Owner" : "meta-framework",
+  "Name" : "what are the relations between systems engineering concepts covered by the framework?",
+  "ID" : "_2024x_1_26f0132_1727272724178_60816_15898",
+  "ConcernsViewpoints" : [ {
+    "Name" : "Concept Viewpoint",
+    "ID" : "_2024x_26f0132_1719735639175_641082_26522"
   } ],
   "subelements" : [ ]
 } ]

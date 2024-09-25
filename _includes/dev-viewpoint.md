@@ -28,22 +28,27 @@
 
 ## Purpose
 {{ vp.Purpose }}
+
 ## Applicability
 {{ vp.Applicability }}
+
 ## Presentation
 {% for pres in vp.Presentation %}
 {{ pres }}
 {% endfor %}
+
 ## Stakeholder
 {% for stk_id in vp.Stakeholders %}
 {% assign stk = site.data.stakeholders | where: "ID", stk_id %}
 * [{{ stk.first.Name }}](../../userdoc/stakeholders.html#{{ stk_id }} )
 {% endfor %}
+
 ## Concern
 {% for concern_id in vp.Concern %}
 {% assign concern = site.data.concerns | where: "ID", concern_id %}
 * [{{ concern.first.Name }}](../../userdoc/concerns.html#{{ concern_id }} )
 {% endfor %}
+
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
 {% assign this_exposes = site.data.exposes | where: "Viewpoint.Name", vp.Name %}
@@ -62,7 +67,17 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 
 ## Input from other Viewpoints
 ### Required Viewpoints
+{% for reqvp_id in vp.RequiredVP %}
+{% assign rvp = site.data.viewpoints | where: "ID", reqvp_id %}
+* [{{ rvp.first.Name }}]({{ rvp.first.Name }}.html)
+{% endfor %}
+
+
 ### Recommended Viewpoints
+{% for recovp_id in vp.RecommendedVP %}
+{% assign recvp = site.data.viewpoints | where: "ID", recovp_id %}
+* [{{ recvp.first.Name }}]({{ rvp.first.Name }}.html)
+{% endfor %}
 
 ## Concepts used in Viewpoint
 {% for c in this_concepts %}
