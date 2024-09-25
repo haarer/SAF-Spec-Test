@@ -76,7 +76,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 ### Recommended Viewpoints
 {% for recovp_id in vp.RecommendedVP %}
 {% assign recvp = site.data.viewpoints | where: "ID", recovp_id %}
-* [{{ recvp.first.Name }}]({{ rvp.first.Name }}.html)
+* [{{ recvp.first.Name }}]({{ recvp.first.Name }}.html)
 {% endfor %}
 
 ## Concepts used in Viewpoint
