@@ -76,7 +76,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735638892_806840_26185",
-    "Name" : "Stereotype Overview Viewpoint"
+    "Name" : "Framework Stereotype Overview Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862803082_148102_11151",
@@ -736,11 +736,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735638892_806840_26185",
-    "Name" : "Stereotype Overview Viewpoint"
+    "Name" : "Framework Stereotype Overview Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738142966_985767_29029",
-    "Name" : "SAF_C2_STYD_Table"
+    "Name" : "SCM_D2_STYD_Table"
   }
 }, {
   "Name" : "",

@@ -308,4 +308,9 @@
   "Documentation" : "",
   "Name" : "Logical Structure Definition Profile",
   "ExampleForVPID" : "D2_VPTI"
+}, {
+  "ID" : "_2024x_26f0132_1719745438501_922673_37455",
+  "Documentation" : "",
+  "Name" : "SAF Stereotype Table (example)",
+  "ExampleForVPID" : "D2_STYD"
 } ]

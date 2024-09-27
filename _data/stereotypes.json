@@ -19,10 +19,6 @@
   "ID" : "_2024x_26f0132_1719141205004_162437_25125",
   "Documentation" : "The Grid Definition Viewpoint serves as overview about the of the Views present in a System Model.\n\nRepresentation:\n\nA content diagram featuring a matrix view for the SAF Viewpoint conceptual model: Rows represent Domains, and columns represent Aspects, and the cells manage the Views.\n\nA table featuring the saf viewpoints, the views (diagrams, tables, ..) of the system model conforming to those viewpoints, domain and aspect information"
 }, {
-  "Name" : "SAF_C2_STYD_Table",
-  "ID" : "_2024x_26f0132_1719738142966_985767_29029",
-  "Documentation" : "The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.\n\nRepresentation:\n\nA table featuring the stereotypes of the SAF profile and their documentation."
-}, {
   "Name" : "SAF_C2_TRMD_Table",
   "ID" : "_2021x_2_8710274_1701349840148_646810_89384",
   "Documentation" : "The Common Terms Definition Viewpoint supports the definition of applicable terms ... [tbd] ...\n\nRepresentation:\n\nA table format listing  terms ...[tbd].\n\nA table format listing abbreviations and relationship to standards if applicable... [tbd]."
@@ -173,7 +169,7 @@
 }, {
   "Name" : "SAF_O4_OCXI",
   "ID" : "_19_0_2_26f0132_1567697216482_129982_55869",
-  "Documentation" : "The Operational Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. \nNote: The Operational Interaction Viewpoint may refine an Operational Story.\n\nRepresentation:\n\nA sequence diagram featuring the flow of control between Operational Performers of an Operational Context to achieve one outcome of an Operational Story. \nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifelines representatives are part properties typed by Operational Performers."
+  "Documentation" : "The Operational Context Interaction Viewpoint describes single threads of interaction between Operational Performers in an Operational Context on an operational domain level. \nNote: The Operational Interaction Viewpoint may refine an Operational Story.\n\nRepresentation:\n\nA sequence diagram featuring the flow of control between Operational Performers of an Operational Context to achieve one outcome of an Operational Story. \nNote: This diagram depicts the sending and receiving of messages between the interacting entities called lifelines where time is represented along the vertical axis. The lifelines representatives are part properties typed by Operational Performers."
 }, {
   "Name" : "SAF_O6_SKRD_Table",
   "ID" : "_19_0_1_26f0132_1548401956524_759247_43000",

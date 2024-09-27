@@ -95,10 +95,6 @@
   "ID" : "_19_0_2_26f0132_1565349260878_452014_55581",
   "Documentation" : "Extends SysML Viewpoint by attributes needed by SAF Documentation.\nUsed for specifying SAF."
 }, {
-  "Name" : "SAF_ProfileImplementation",
-  "ID" : "_2021x_2_6d8019d_1692520526174_586088_24447",
-  "Documentation" : ""
-}, {
   "Name" : "SCM_Attribute",
   "ID" : "_2021x_2_8710274_1681827616768_507369_24529",
   "Documentation" : "Defines a relationship between attribute type and attribute owner, implementing a SAF concept.\nThe name of the relation specifies the name of the attribute\nUsed for specifying SAF."
@@ -118,4 +114,8 @@
   "Name" : "SCM_TypedBy",
   "ID" : "_2021x_2_8710274_1681817799465_673005_29324",
   "Documentation" : "Defines a realization where the instances of the client(sterotype or metaclass) is typed by instances of the the supplier (stereotype or metaclass).\nUsed for specifying realizations of SAF Concepts in the SAF Specification."
+}, {
+  "Name" : "SCM_D2_STYD_Table",
+  "ID" : "_2024x_26f0132_1719738142966_985767_29029",
+  "Documentation" : "The Stereotype Viewpoint provides an overview over all stereotypes provided by SAF.\n\nRepresentation:\n\nA table featuring the stereotypes of the SAF profile and their documentation."
 } ]
