@@ -65,7 +65,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 * [{{ real.first.RealizationOfConcept.Name }}](../stereotypes.html#{{ real.first.RealizationOfConcept.ID }})
 {% endfor %}
 
-## Input from other Viewpoints
+## Related Viewpoints
 ### Required Viewpoints
 {% for reqvp_id in vp.RequiredVP %}
 {% assign rvp = site.data.viewpoints | where: "ID", reqvp_id %}
