@@ -72,7 +72,7 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 </ul>
 
 
-## Input from other Viewpoints
+## Related Viewpoints
 ### Required Viewpoints
 <ul>
 {% for reqvp_id in vp.RequiredVP %}

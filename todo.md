@@ -5,10 +5,11 @@
 * user doc viewpoints
   * reference to diagram sterotypes is missing
 * dev doc viewpoints
-  * profile and concept diagrams
-* dev doc concept diags
+  * profile and concept diagrams are missing
+* dev doc concept diagrams are missing
 * bring all dev viewpoints from proposed to construction
 * review all pages
+* concepts overview is missing (linked from stereotypes)
 # fix
 * rand auf komplette seite ausdehnen
 * fix site footer link bullets
