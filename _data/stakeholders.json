@@ -301,7 +301,7 @@
   "Documentation" : "The SAF Developer is a group or an individual developing SAF or extending SAF.",
   "Rationales" : [ {
     "Rationale" : "I need to cover the processes and best practises by a suitable set of viewpoints.",
-    "Concern" : "How does a viewpoint of the framework the processes and best practises of the INCOSE SE Handbook?"
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
   }, {
     "Rationale" : "I need to chose a suitable implementation for the SE concepts exposed by a viewpoint.",
     "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
@@ -309,8 +309,8 @@
     "Rationale" : "I need to cover the information need of stakeholders to match the purpose of the viewpoint.",
     "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
   }, {
-    "Rationale" : "",
-    "Concern" : "What are the frameworks model elements to be used"
+    "Rationale" : "I need to implement and document them for users",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
   }, {
     "Rationale" : "I need to create a comprehensive specification of the frameworks viewpoints.",
     "Concern" : "What is the definition of a viewpoint of the framework?"
@@ -336,11 +336,11 @@
     "Rationale" : "I need to structure the framework into an understandable grid layout.",
     "Concern" : "Which columns and rows does the frameworks grid have? "
   }, {
+    "Rationale" : "I need to analyze the concerns if they are justified by SE best practice.",
+    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
+  }, {
     "Rationale" : "I need to design viewpoints that fullfill stakeholders information needs and cover the purpose of the viewpoints.",
     "Concern" : "Which concerns are framed by a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to analyze the concerns if they are justified by SE best practice.",
-    "Concern" : "Which concerns are related to the frameworks stakeholders?"
   }, {
     "Rationale" : "I need to explain the hard(e.g. by required model elements being a prerequisite) and soft (a recommended good practice) dependencies to frameworks users.",
     "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
@@ -358,10 +358,16 @@
     "Concern" : "Which viewpoints are available in the framework"
   }, {
     "Rationale" : "I need to explain to frameworks users who would typically have an interest in which viewpoint.",
-    "Concern" : "Who are the Stakeholders of the frameworks viewpoints?"
+    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
   }, {
-    "Rationale" : "",
+    "Rationale" : "I  want to understand the intention for the information need to select an cut set of viewpoints and then and appropriate presentation for the information.",
     "Concern" : "Why does a stakeholder have this specific concern ? "
+  }, {
+    "Rationale" : "I need to know them in order select an appropriate presentation,  implementation, and to implement model checks.",
+    "Concern" : "what are the constraints related to se concepts covered by the framework? "
+  }, {
+    "Rationale" : "I need to make sure they can answer the information need described by concerns.\nI need to implement them in a profile",
+    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
   } ]
 }, {
   "Name" : "SAF MBSE approch planer",
@@ -369,13 +375,13 @@
   "Documentation" : "The SAF MBSE approach planer is a group or an individual selecting viewpoints to be used in an MBSE approach. This may be identical with an architect role but may as well be carried out by an organziation standardizing the MBSE approach for products, product lines or an entire enterprise.",
   "Rationales" : [ {
     "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because want to plan a MBSE approach.",
-    "Concern" : "How does a viewpoint of the framework the processes and best practises of the INCOSE SE Handbook?"
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
   }, {
     "Rationale" : "I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.",
     "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
   }, {
-    "Rationale" : "",
-    "Concern" : "What are the frameworks model elements to be used"
+    "Rationale" : "I need to know which modeling skills users will need.",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
   }, {
     "Rationale" : "I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.",
     "Concern" : "What is the definition of a viewpoint of the framework?"
@@ -398,11 +404,11 @@
     "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
     "Concern" : "Which columns and rows does the frameworks grid have? "
   }, {
+    "Rationale" : "I need to analyze the concerns if they match the information needs my stakeholders will have in order to identify gaps in the MBSE approach.",
+    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
+  }, {
     "Rationale" : "I need to know if the information needs of my stakeholders are covered in order to plan the MBSE approach.",
     "Concern" : "Which concerns are framed by a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to analyze the concerns if they match the information needs my stakeholders will have in order to identify gaps in the MBSE approach.",
-    "Concern" : "Which concerns are related to the frameworks stakeholders?"
   }, {
     "Rationale" : "I need to know the dependencies in order to plan the MBSE approach.",
     "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
@@ -414,10 +420,16 @@
     "Concern" : "Which systems engineering concepts are covered by the framework?"
   }, {
     "Rationale" : "I need to select viewpoints for my stakeholders and want to use this information as a starting point.",
-    "Concern" : "Who are the Stakeholders of the frameworks viewpoints?"
+    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
   }, {
-    "Rationale" : "",
+    "Rationale" : "I want to know what might happen if the concern cannot be fulfilled.",
     "Concern" : "Why does a stakeholder have this specific concern ? "
+  }, {
+    "Rationale" : "I want to validate the assumptions made in the framework against the anticipated information need of the MBSE appoach.",
+    "Concern" : "what are the constraints related to se concepts covered by the framework? "
+  }, {
+    "Rationale" : "I want to know if the information need that i anticipate for the MBSE approach will be satisfied by the framework.",
+    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
   } ]
 }, {
   "Name" : "SAF System model user",
@@ -425,13 +437,13 @@
   "Documentation" : "The SAF System Model User is a group or an individual creating, maintaining or reading SAF System Models.",
   "Rationales" : [ {
     "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because i want to use the viewpoints suitable for the work i am doing.",
-    "Concern" : "How does a viewpoint of the framework the processes and best practises of the INCOSE SE Handbook?"
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
   }, {
     "Rationale" : "I want to know which model elements i am expected to work on in a viewpoint.",
     "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
   }, {
-    "Rationale" : "",
-    "Concern" : "What are the frameworks model elements to be used"
+    "Rationale" : "I need to populate system models with them and read them from system models.",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
   }, {
     "Rationale" : "I need a user documentation of the viewpoint i am going to use.",
     "Concern" : "What is the definition of a viewpoint of the framework?"

@@ -19,8 +19,6 @@
 | --- | --- | --- |
 |{{ domainlink }}|{{ aspectlink }}|{{ maturityimage }}{{ maturitylink }}|
 
-
-
 ## Example
 {% for ex in examples %}
 <img src="../../diagrams/examples_md/exa{{ ex.ID }}.svg" />
@@ -38,16 +36,20 @@
 {% endfor %}
 
 ## Stakeholder
+<ul>
 {% for stk_id in vp.Stakeholders %}
 {% assign stk = site.data.stakeholders | where: "ID", stk_id %}
-* [{{ stk.first.Name }}](../../userdoc/stakeholders.html#{{ stk_id }} )
+<li><A href="../../userdoc/stakeholders.html#{{ stk_id }}"> {{ stk.first.Name }} </A></li>
 {% endfor %}
+</ul>
 
 ## Concern
+<ul>
 {% for concern_id in vp.Concern %}
 {% assign concern = site.data.concerns | where: "ID", concern_id %}
-* [{{ concern.first.Name }}](../../userdoc/concerns.html#{{ concern_id }} )
+<li><A href="../../userdoc/concerns.html#{{ concern_id }}"> {{ concern.first.Name }} </A></li>
 {% endfor %}
+</ul>
 
 ## Profile Model Reference
 The following Stereotypes / Model Elements are used in the Viewpoint:
@@ -60,24 +62,30 @@ The following Stereotypes / Model Elements are used in the Viewpoint:
 {% assign t_i = t_i | concat: r | uniq%}
 {% endfor %}
 
+<ul>
 {% for c in t_i %}
 {% assign real = site.data.realizeconcept | where: "RealizationOfConcept.ID", c %}
-* [{{ real.first.RealizationOfConcept.Name }}](../../userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }})
+<li><A href="../../userdoc/stereotypes.html#{{ real.first.RealizationOfConcept.ID }}">{{ real.first.RealizationOfConcept.Name }}</A></li>
 {% endfor %}
+</ul>
 
 ## Input from other Viewpoints
+
 ### Required Viewpoints
+<ul>
 {% for reqvp_id in vp.RequiredVP %}
 {% assign rvp = site.data.viewpoints | where: "ID", reqvp_id %}
-* [{{ rvp.first.Name }}]({{ rvp.first.Name }}.html)
+<li><A href="{{ rvp.first.Name }}.html">{{ rvp.first.Name }}</A></li>
 {% endfor %}
-
+</ul>
 
 ### Recommended Viewpoints
+<ul>
 {% for recovp_id in vp.RecommendedVP %}
 {% assign recvp = site.data.viewpoints | where: "ID", recovp_id %}
-* [{{ recvp.first.Name }}]({{ recvp.first.Name }}.html)
+<li><A href="{{ recvp.first.Name }}.html">{{ recvp.first.Name }}</A></li>
 {% endfor %}
+</ul>
 
 ## Concepts used in Viewpoint
 {% for c in this_concepts %}

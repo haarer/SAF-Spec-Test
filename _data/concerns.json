@@ -217,7 +217,7 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "structure",
+  "Owner" : "_unused",
   "Name" : "What is the allocated space?",
   "ID" : "_2021x_2_8710274_1674576758981_795627_23427",
   "ConcernsViewpoints" : [ ],
@@ -225,7 +225,7 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "structure",
+  "Owner" : "_unused",
   "Name" : "What is the allocated weight?",
   "ID" : "_2021x_2_8710274_1674576758960_504398_23411",
   "ConcernsViewpoints" : [ ],
@@ -299,7 +299,7 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "stakeholder",
+  "Owner" : "_unused",
   "Name" : "How to involve a Stakeholder and to what degree?",
   "ID" : "_2021x_2_8710274_1674576759044_574547_23470",
   "ConcernsViewpoints" : [ ],
@@ -318,7 +318,7 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "stakeholder",
+  "Owner" : "_unused",
   "Name" : "What are the consequences not considering a Stakeholder?",
   "ID" : "_2021x_2_8710274_1674576759019_845169_23454",
   "ConcernsViewpoints" : [ ],
@@ -326,7 +326,7 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "stakeholder",
+  "Owner" : "_unused",
   "Name" : "What are the consequences, if the Stakeholder’s concerns are not considered?",
   "ID" : "_2021x_2_8710274_1674576758624_283804_23093",
   "ConcernsViewpoints" : [ ],
@@ -345,7 +345,7 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "stakeholder",
+  "Owner" : "_unused",
   "Name" : "What impact does a Stakeholder have on the project?",
   "ID" : "_2021x_2_8710274_1674576758839_643425_23325",
   "ConcernsViewpoints" : [ ],
@@ -1041,10 +1041,10 @@
   "level" : 0,
   "Documentation" : "",
   "Owner" : "meta-framework",
-  "Name" : "How does a viewpoint of the framework the processes and best practises of the INCOSE SE Handbook?",
+  "Name" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?",
   "ID" : "_2024x_26f0132_1719130644780_901120_14852",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   } ],
   "subelements" : [ ]
@@ -1055,7 +1055,7 @@
   "Name" : "How is a viewpoint implemented (which stereotypes /model elements are used)? ",
   "ID" : "_2024x_26f0132_1719130358584_780281_14792",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Implementation Viewpoint",
+    "Name" : "Framework Viewpoint Implementation Viewpoint",
     "ID" : "_2024x_26f0132_1719735411756_812404_24423"
   } ],
   "subelements" : [ ]
@@ -1066,7 +1066,7 @@
   "Name" : "What are the concerns adressed by the frameworks viewpoints?",
   "ID" : "_2024x_26f0132_1719129886772_493463_14747",
   "ConcernsViewpoints" : [ {
-    "Name" : "Concern Viewpoint",
+    "Name" : "Framework Concern Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735530442_324624_25471"
   } ],
   "subelements" : [ ]
@@ -1074,13 +1074,13 @@
   "level" : 0,
   "Documentation" : "",
   "Owner" : "meta-framework",
-  "Name" : "What are the frameworks model elements to be used",
+  "Name" : "What are the frameworks model elements to be used in system models?",
   "ID" : "_2024x_26f0132_1719746308347_570628_39136",
   "ConcernsViewpoints" : [ {
     "Name" : "Stereotype Overview Viewpoint",
     "ID" : "_2024x_26f0132_1719735638892_806840_26185"
   }, {
-    "Name" : "Implementation Traceability Viewpoint",
+    "Name" : "Framework Implementation Traceability Viewpoint",
     "ID" : "_2024x_26f0132_1719746598512_743707_39208"
   } ],
   "subelements" : [ ]
@@ -1091,7 +1091,7 @@
   "Name" : "What is the definition of a viewpoint of the framework?",
   "ID" : "_2024x_26f0132_1719130113094_957740_14764",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   } ],
   "subelements" : [ ]
@@ -1118,8 +1118,11 @@
   "Name" : "What is the implementation of the frameworks concepts?",
   "ID" : "_2024x_26f0132_1719130336926_829742_14789",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Implementation Viewpoint",
+    "Name" : "Framework Viewpoint Implementation Viewpoint",
     "ID" : "_2024x_26f0132_1719735411756_812404_24423"
+  }, {
+    "Name" : "Framework Implementation Traceability Viewpoint",
+    "ID" : "_2024x_26f0132_1719746598512_743707_39208"
   } ],
   "subelements" : [ ]
 }, {
@@ -1129,7 +1132,7 @@
   "Name" : "What is the maturity state of viewpoints in the framework?",
   "ID" : "_2024x_26f0132_1719129513706_329066_14708",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Overview Viewpoint",
+    "Name" : "Framework Viewpoint Overview Viewpoint",
     "ID" : "_2024x_26f0132_1719735639638_993311_27196"
   } ],
   "subelements" : [ ]
@@ -1140,7 +1143,7 @@
   "Name" : "What is the purpose of a viewpoint in the framwork?",
   "ID" : "_2024x_26f0132_1719130556191_78836_14843",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   } ],
   "subelements" : [ ]
@@ -1151,10 +1154,10 @@
   "Name" : "Where is a viewpoint of the framework located in the frameworks grid?",
   "ID" : "_2024x_26f0132_1719130165383_541840_14769",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   }, {
-    "Name" : "Viewpoint Overview Viewpoint",
+    "Name" : "Framework Viewpoint Overview Viewpoint",
     "ID" : "_2024x_26f0132_1719735639638_993311_27196"
   } ],
   "subelements" : [ ]
@@ -1165,7 +1168,7 @@
   "Name" : "Which columns and rows does the frameworks grid have? ",
   "ID" : "_2024x_26f0132_1719130222689_69494_14774",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Overview Viewpoint",
+    "Name" : "Framework Viewpoint Overview Viewpoint",
     "ID" : "_2024x_26f0132_1719735639638_993311_27196"
   } ],
   "subelements" : [ ]
@@ -1176,10 +1179,10 @@
   "Name" : "Which concerns are framed by a viewpoint of the framework?",
   "ID" : "_2024x_26f0132_1719130076292_184990_14761",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   }, {
-    "Name" : "Concern Viewpoint",
+    "Name" : "Framework Concern Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735530442_324624_25471"
   } ],
   "subelements" : [ ]
@@ -1187,16 +1190,16 @@
   "level" : 0,
   "Documentation" : "",
   "Owner" : "meta-framework",
-  "Name" : "Which concerns are related to the frameworks stakeholders?",
+  "Name" : "Which concerns are does an architecture framework stakeholder have?",
   "ID" : "_2024x_26f0132_1719129962342_738625_14755",
   "ConcernsViewpoints" : [ {
-    "Name" : "Rationale Viewpoint",
+    "Name" : "Framework Rationale Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735638642_287063_25848"
   }, {
-    "Name" : "Stakeholder Viewpoint",
+    "Name" : "Framework Stakeholder Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735528612_846205_25134"
   }, {
-    "Name" : "Concern Viewpoint",
+    "Name" : "Framework Concern Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735530442_324624_25471"
   } ],
   "subelements" : [ ]
@@ -1207,7 +1210,7 @@
   "Name" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?",
   "ID" : "_2024x_26f0132_1719130608615_351381_14849",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   } ],
   "subelements" : [ ]
@@ -1218,7 +1221,7 @@
   "Name" : "Which presentations are available for a viewpoint in the framwork?",
   "ID" : "_2024x_26f0132_1719130583650_18980_14846",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   } ],
   "subelements" : [ ]
@@ -1229,7 +1232,7 @@
   "Name" : "Which systems engineering concepts are covered by the framework?",
   "ID" : "_2024x_26f0132_1719129923965_578278_14750",
   "ConcernsViewpoints" : [ {
-    "Name" : "Concept Viewpoint",
+    "Name" : "Framework Concept Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735639175_641082_26522"
   } ],
   "subelements" : [ ]
@@ -1240,7 +1243,7 @@
   "Name" : "Which systems engineering concepts are exposed within a viewpoint of the framework?",
   "ID" : "_2024x_26f0132_1719130002321_367858_14758",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Definition Viewpoint",
+    "Name" : "Framework Viewpoint Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735523519_523621_24797"
   } ],
   "subelements" : [ ]
@@ -1251,7 +1254,7 @@
   "Name" : "Which viewpoints are available in the framework",
   "ID" : "_2024x_26f0132_1719129141456_206905_14250",
   "ConcernsViewpoints" : [ {
-    "Name" : "Viewpoint Overview Viewpoint",
+    "Name" : "Framework Viewpoint Overview Viewpoint",
     "ID" : "_2024x_26f0132_1719735639638_993311_27196"
   } ],
   "subelements" : [ ]
@@ -1281,10 +1284,10 @@
   "level" : 0,
   "Documentation" : "",
   "Owner" : "meta-framework",
-  "Name" : "Who are the Stakeholders of the frameworks viewpoints?",
+  "Name" : "Who are the architecture framework stakeholders of the frameworks viewpoints?",
   "ID" : "_2024x_26f0132_1719129843876_724811_14744",
   "ConcernsViewpoints" : [ {
-    "Name" : "Stakeholder Viewpoint",
+    "Name" : "Framework Stakeholder Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735528612_846205_25134"
   } ],
   "subelements" : [ ]
@@ -1295,7 +1298,7 @@
   "Name" : "Why does a stakeholder have this specific concern ? ",
   "ID" : "_2024x_26f0132_1719744888608_624464_37315",
   "ConcernsViewpoints" : [ {
-    "Name" : "Rationale Viewpoint",
+    "Name" : "Framework Rationale Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735638642_287063_25848"
   } ],
   "subelements" : [ ]
@@ -1790,7 +1793,7 @@
 }, {
   "level" : 0,
   "Documentation" : "",
-  "Owner" : "boundary & context",
+  "Owner" : "_unused",
   "Name" : "How will the system be used by whom and which contextual elements are involved?",
   "ID" : "_2021x_2_8710274_1674576758649_359253_23129",
   "ConcernsViewpoints" : [ ],
@@ -1946,7 +1949,7 @@
   "Name" : "what are the constraints related to se concepts covered by the framework? ",
   "ID" : "_2024x_1_26f0132_1727272903091_424205_15904",
   "ConcernsViewpoints" : [ {
-    "Name" : "Concept Viewpoint",
+    "Name" : "Framework Concept Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735639175_641082_26522"
   } ],
   "subelements" : [ ]
@@ -1957,7 +1960,7 @@
   "Name" : "what are the relations between systems engineering concepts covered by the framework?",
   "ID" : "_2024x_1_26f0132_1727272724178_60816_15898",
   "ConcernsViewpoints" : [ {
-    "Name" : "Concept Viewpoint",
+    "Name" : "Framework Concept Definition Viewpoint",
     "ID" : "_2024x_26f0132_1719735639175_641082_26522"
   } ],
   "subelements" : [ ]

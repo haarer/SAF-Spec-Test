@@ -32,6 +32,6 @@
   "level" : 0,
   "Name" : "SAF Development",
   "ID" : "_2024x_26f0132_1719736322867_114112_27937",
-  "Documentation" : "The SAF Development Domain supports the development and maintenance of the SAF. ",
+  "Documentation" : "The SAF Development Domain supports the development, maintenance and extension of the SAF. ",
   "subelements" : [ ]
 } ]

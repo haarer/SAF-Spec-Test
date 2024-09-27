@@ -16,11 +16,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",
-    "Name" : "Concept Viewpoint"
+    "Name" : "Framework Concept Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862706905_990743_11108",
-    "Name" : "Concept Viewpoint"
+    "Name" : "Framework Concept Viewpoint"
   }
 }, {
   "Name" : "",
@@ -28,11 +28,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Concern Viewpoint"
+    "Name" : "Framework Concern Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862695951_873891_11098",
-    "Name" : "Concern Viewpoint"
+    "Name" : "Framework Concern Viewpoint"
   }
 }, {
   "Name" : "",
@@ -40,11 +40,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719746598512_743707_39208",
-    "Name" : "Implementation Traceability Viewpoint"
+    "Name" : "Framework Implementation Traceability Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862732807_739832_11118",
-    "Name" : "Implementation Traceability Viewpoint"
+    "Name" : "Framework Implementation Traceability Viewpoint"
   }
 }, {
   "Name" : "",
@@ -52,11 +52,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Rationale Viewpoint"
+    "Name" : "Framework Rationale Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862759978_194854_11129",
-    "Name" : "Rationale Viewpoint"
+    "Name" : "Framework Rationale Viewpoint"
   }
 }, {
   "Name" : "",
@@ -64,11 +64,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Stakeholder Viewpoint"
+    "Name" : "Framework Stakeholder Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862780785_303725_11140",
-    "Name" : "Stakeholder Viewpoint"
+    "Name" : "Framework Stakeholder Viewpoint"
   }
 }, {
   "Name" : "",
@@ -80,7 +80,7 @@
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862803082_148102_11151",
-    "Name" : "Stereotype Overview Viewpoint"
+    "Name" : "Framework Stereotype Overview Viewpoint"
   }
 }, {
   "Name" : "",
@@ -88,11 +88,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862832172_714687_11162",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -100,11 +100,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862872237_988128_11178",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
@@ -112,11 +112,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
-    "Name" : "Viewpoint Overview Viewpoint"
+    "Name" : "Framework Viewpoint Overview Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_1_26f0132_1724862852634_6876_11170",
-    "Name" : "Viewpoint Overview Viewpoint"
+    "Name" : "Framework Viewpoint Overview Viewpoint"
   }
 }, {
   "Name" : "",
@@ -3220,11 +3220,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Concern Viewpoint"
+    "Name" : "Framework Concern Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737905319_53042_28833",
-    "Name" : "SCM_D2_CCND_Table"
+    "Name" : "SCM_D6_CCND_Table"
   }
 }, {
   "Name" : "",
@@ -3232,7 +3232,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",
-    "Name" : "Concept Viewpoint"
+    "Name" : "Framework Concept Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2021x_2_8710274_1702027432699_857546_20465",
@@ -3244,7 +3244,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",
-    "Name" : "Concept Viewpoint"
+    "Name" : "Framework Concept Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737475680_936292_28621",
@@ -3256,11 +3256,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Rationale Viewpoint"
+    "Name" : "Framework Rationale Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738001729_783195_28913",
-    "Name" : "SCM_D2_RATD_Table"
+    "Name" : "SCM_D6_RATD_Table"
   }
 }, {
   "Name" : "",
@@ -3268,11 +3268,11 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Stakeholder Viewpoint"
+    "Name" : "Framework Stakeholder Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738093050_603021_28974",
-    "Name" : "SCM_D2_STKD_Table"
+    "Name" : "SCM_D1_STKD_Table"
   }
 }, {
   "Name" : "",
@@ -3280,7 +3280,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737475678_685392_28619",
@@ -3292,7 +3292,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737520846_727143_28649",
@@ -3304,7 +3304,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
-    "Name" : "Viewpoint Overview Viewpoint"
+    "Name" : "Framework Viewpoint Overview Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719737521935_491979_28659",
@@ -3316,7 +3316,7 @@
   "Documentation" : "",
   "RealizedConcept" : {
     "ID" : "_2024x_26f0132_1719735639638_993311_27196",
-    "Name" : "Viewpoint Overview Viewpoint"
+    "Name" : "Framework Viewpoint Overview Viewpoint"
   },
   "RealizationOfConcept" : {
     "ID" : "_2024x_26f0132_1719738460476_855266_29208",

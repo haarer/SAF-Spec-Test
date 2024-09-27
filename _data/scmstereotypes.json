@@ -3,7 +3,7 @@
   "ID" : "_2024x_26f0132_1719737905318_641589_28831",
   "Documentation" : ""
 }, {
-  "Name" : "SCM_D2_CCND_Table",
+  "Name" : "SCM_D6_CCND_Table",
   "ID" : "_2024x_26f0132_1719737905319_53042_28833",
   "Documentation" : ""
 }, {
@@ -15,11 +15,11 @@
   "ID" : "_2024x_26f0132_1719737475680_936292_28621",
   "Documentation" : ""
 }, {
-  "Name" : "SCM_D2_RATD_Table",
+  "Name" : "SCM_D6_RATD_Table",
   "ID" : "_2024x_26f0132_1719738001729_783195_28913",
   "Documentation" : ""
 }, {
-  "Name" : "SCM_D2_STKD_Table",
+  "Name" : "SCM_D1_STKD_Table",
   "ID" : "_2024x_26f0132_1719738093050_603021_28974",
   "Documentation" : ""
 }, {

@@ -380,7 +380,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",
-    "Name" : "Concept Viewpoint"
+    "Name" : "Framework Concept Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -392,7 +392,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735639175_641082_26522",
-    "Name" : "Concept Viewpoint"
+    "Name" : "Framework Concept Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -404,7 +404,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Concern Viewpoint"
+    "Name" : "Framework Concern Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -416,7 +416,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Concern Viewpoint"
+    "Name" : "Framework Concern Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -428,7 +428,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735530442_324624_25471",
-    "Name" : "Concern Viewpoint"
+    "Name" : "Framework Concern Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -440,7 +440,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Rationale Viewpoint"
+    "Name" : "Framework Rationale Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -452,7 +452,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Rationale Viewpoint"
+    "Name" : "Framework Rationale Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -464,7 +464,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735638642_287063_25848",
-    "Name" : "Rationale Viewpoint"
+    "Name" : "Framework Rationale Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -476,7 +476,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Stakeholder Viewpoint"
+    "Name" : "Framework Stakeholder Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -488,7 +488,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Stakeholder Viewpoint"
+    "Name" : "Framework Stakeholder Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -500,7 +500,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735528612_846205_25134",
-    "Name" : "Stakeholder Viewpoint"
+    "Name" : "Framework Stakeholder Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -512,7 +512,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -524,7 +524,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -536,7 +536,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -548,7 +548,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -560,7 +560,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -572,7 +572,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735523519_523621_24797",
-    "Name" : "Viewpoint Definition Viewpoint"
+    "Name" : "Framework Viewpoint Definition Viewpoint"
   }
 }, {
   "Name" : "",
@@ -584,7 +584,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
@@ -596,7 +596,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
@@ -608,7 +608,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
@@ -620,7 +620,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
@@ -632,7 +632,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
@@ -644,7 +644,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
@@ -656,7 +656,7 @@
   },
   "Viewpoint" : {
     "ID" : "_2024x_26f0132_1719735411756_812404_24423",
-    "Name" : "Viewpoint Implementation Viewpoint"
+    "Name" : "Framework Viewpoint Implementation Viewpoint"
   }
 }, {
   "Name" : "",
