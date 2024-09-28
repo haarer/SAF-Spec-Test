@@ -227,258 +227,6 @@
   "Documentation" : "Definition - Customer (Representative):\n(1) [SAF] The primary goal in a Customer (Representative) role is to represent the end-user, an individual, organization, or enterprise that benefits from the operation of the system. In this role the Customer (Representative) provides usage scenarios, user needs and requirements.\n(2) [SAF] The secondary goal in a Customer (Representative) role is to represent the Acquirer, who buys or procures a product or service from a supplier. The Acquirer selected by the User to serve as their technical representative to:\n1. Specify the system.\n2. Select a System Developer or Services Provider.\n3. Provide technical assistance.\n4. Provide contractual oversight for the execution of the contract and delivery of a\nverified and validated system to the User.\nNote: All other Stakeholders do not use the system for purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the end-user and claims of the other stakeholders could be contradicting and the Customer (Representative) role therefore strives for a solution satisfying all the Stakeholder Requirements.",
   "Rationales" : [ ]
 }, {
-  "Name" : "Operator",
-  "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
-  "Documentation" : "Definition - Operator:\nIndividual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. \nAn individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. \n*For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. \nTo provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. \nThe individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. \nThe example illustrates, that the roles user and operator are depending heavily on the definition of the SOI Scope.*",
-  "Rationales" : [ {
-    "Rationale" : "",
-    "Concern" : "How does a system function interact with its environment?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What are the scenarios a system function is utilized in?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What is the necessary response time for an interface or a service?"
-  }, {
-    "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
-    "Concern" : "Which users does the system support? "
-  } ]
-}, {
-  "Name" : "User",
-  "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
-  "Documentation" : "Definition - User:\nIndividual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]\nThe User is the individual, organization or group that benefits from the operation of the system. The User provides the usage scenarios, the User needs and finally the user requirements representing most of the functional requirements but also non-functional requirements. The role of User and the role of operator are sometimes allocated, simultaneously or sequentially, to the same individual or organization. All the other stakeholders do not use the system for any purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the User and claims of the Stakeholder could be contradicting.",
-  "Rationales" : [ {
-    "Rationale" : "",
-    "Concern" : "How does a system function interact with its environment?"
-  }, {
-    "Rationale" : "In my role, I need to check whether intended solution satisfies my user needs.",
-    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What are the scenarios a system function is utilized in?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What is the necessary response time for an interface or a service?"
-  }, {
-    "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
-    "Concern" : "Which users does the system support? "
-  } ]
-}, {
-  "Name" : "Regulation Authority",
-  "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
-  "Documentation" : "Definition - Regulation Authority:\nRegulation Authorities can have impact by imposing Stakeholder Requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). \nThe term “authorities” also refers to current applicable regulations and laws.\nThe requirements stipulated on the system are diverse. They can be functional and non-functional requirements.\nSystems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements.",
-  "Rationales" : [ {
-    "Rationale" : "",
-    "Concern" : "How are applicable requirements considered in the system architecture?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "How are error states handled?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "What is the rationale when requirements are not considered?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "Which modes and states does the system have?"
-  }, {
-    "Rationale" : "",
-    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
-  } ]
-}, {
-  "Name" : "SAF Developer",
-  "ID" : "_2024x_26f0132_1719129287848_367992_14650",
-  "Documentation" : "The SAF Developer is a group or an individual developing SAF or extending SAF.",
-  "Rationales" : [ {
-    "Rationale" : "I need to cover the processes and best practises by a suitable set of viewpoints.",
-    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
-  }, {
-    "Rationale" : "I need to chose a suitable implementation for the SE concepts exposed by a viewpoint.",
-    "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
-  }, {
-    "Rationale" : "I need to cover the information need of stakeholders to match the purpose of the viewpoint.",
-    "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
-  }, {
-    "Rationale" : "I need to implement and document them for users",
-    "Concern" : "What are the frameworks model elements to be used in system models?"
-  }, {
-    "Rationale" : "I need to create a comprehensive specification of the frameworks viewpoints.",
-    "Concern" : "What is the definition of a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to structure the framework along criteria that are similar over the domains. ",
-    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to structure the framework along criteria that roughly resemble phases of a typical SE workflow.",
-    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to cover the SE concepts exposed by viewpoints by an implementation.",
-    "Concern" : "What is the implementation of the frameworks concepts?"
-  }, {
-    "Rationale" : "I need an overview over the maturity of available to plan SAF development.",
-    "Concern" : "What is the maturity state of viewpoints in the framework?"
-  }, {
-    "Rationale" : "I need to explain to SAF users what the viewpoint is good for.",
-    "Concern" : "What is the purpose of a viewpoint in the framwork?"
-  }, {
-    "Rationale" : "I need to structure the framework into an understandable grid layout.",
-    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to structure the framework into an understandable grid layout.",
-    "Concern" : "Which columns and rows does the frameworks grid have? "
-  }, {
-    "Rationale" : "I need to analyze the concerns if they are justified by SE best practice.",
-    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
-  }, {
-    "Rationale" : "I need to design viewpoints that fullfill stakeholders information needs and cover the purpose of the viewpoints.",
-    "Concern" : "Which concerns are framed by a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to explain the hard(e.g. by required model elements being a prerequisite) and soft (a recommended good practice) dependencies to frameworks users.",
-    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to specify presentations of the information in a viewpoint to address different framework stakeholders concerns.",
-    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
-  }, {
-    "Rationale" : "I need to cover important SE concepts in typical SE workflows along the processes of the INCOSE SE Handbook and SE best practices.",
-    "Concern" : "Which systems engineering concepts are covered by the framework?"
-  }, {
-    "Rationale" : "I need to specify which SE concepts are exposed in order to fullfil the information need of stakeholders and the viewpoints purpose.",
-    "Concern" : "Which systems engineering concepts are exposed within a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need an overview over the viewpoints available to identify possible gaps.",
-    "Concern" : "Which viewpoints are available in the framework"
-  }, {
-    "Rationale" : "I need to explain to frameworks users who would typically have an interest in which viewpoint.",
-    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
-  }, {
-    "Rationale" : "I  want to understand the intention for the information need to select an cut set of viewpoints and then and appropriate presentation for the information.",
-    "Concern" : "Why does a stakeholder have this specific concern ? "
-  }, {
-    "Rationale" : "I need to know them in order select an appropriate presentation,  implementation, and to implement model checks.",
-    "Concern" : "what are the constraints related to se concepts covered by the framework? "
-  }, {
-    "Rationale" : "I need to make sure they can answer the information need described by concerns.\nI need to implement them in a profile",
-    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
-  } ]
-}, {
-  "Name" : "SAF MBSE approch planer",
-  "ID" : "_2024x_26f0132_1719129568628_636824_14722",
-  "Documentation" : "The SAF MBSE approach planer is a group or an individual selecting viewpoints to be used in an MBSE approach. This may be identical with an architect role but may as well be carried out by an organziation standardizing the MBSE approach for products, product lines or an entire enterprise.",
-  "Rationales" : [ {
-    "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because want to plan a MBSE approach.",
-    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
-  }, {
-    "Rationale" : "I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.",
-    "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
-  }, {
-    "Rationale" : "I need to know which modeling skills users will need.",
-    "Concern" : "What are the frameworks model elements to be used in system models?"
-  }, {
-    "Rationale" : "I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.",
-    "Concern" : "What is the definition of a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to understand the framworks structure in order to chose viewpoints to be used.",
-    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
-    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to know which viewpoins are stable to assess the risk using them.",
-    "Concern" : "What is the maturity state of viewpoints in the framework?"
-  }, {
-    "Rationale" : "I need to select appropriate viewpoinst for the MBSE approach.",
-    "Concern" : "What is the purpose of a viewpoint in the framwork?"
-  }, {
-    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
-    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
-    "Concern" : "Which columns and rows does the frameworks grid have? "
-  }, {
-    "Rationale" : "I need to analyze the concerns if they match the information needs my stakeholders will have in order to identify gaps in the MBSE approach.",
-    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
-  }, {
-    "Rationale" : "I need to know if the information needs of my stakeholders are covered in order to plan the MBSE approach.",
-    "Concern" : "Which concerns are framed by a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to know the dependencies in order to plan the MBSE approach.",
-    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need plan which presentations shall be used by the MBSE approach.",
-    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
-  }, {
-    "Rationale" : "I need know if the SE concepts to my stakeholders according to the planned SE work flow is covered by the framework.",
-    "Concern" : "Which systems engineering concepts are covered by the framework?"
-  }, {
-    "Rationale" : "I need to select viewpoints for my stakeholders and want to use this information as a starting point.",
-    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
-  }, {
-    "Rationale" : "I want to know what might happen if the concern cannot be fulfilled.",
-    "Concern" : "Why does a stakeholder have this specific concern ? "
-  }, {
-    "Rationale" : "I want to validate the assumptions made in the framework against the anticipated information need of the MBSE appoach.",
-    "Concern" : "what are the constraints related to se concepts covered by the framework? "
-  }, {
-    "Rationale" : "I want to know if the information need that i anticipate for the MBSE approach will be satisfied by the framework.",
-    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
-  } ]
-}, {
-  "Name" : "SAF System model user",
-  "ID" : "_2024x_26f0132_1719129555802_233661_14716",
-  "Documentation" : "The SAF System Model User is a group or an individual creating, maintaining or reading SAF System Models.",
-  "Rationales" : [ {
-    "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because i want to use the viewpoints suitable for the work i am doing.",
-    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
-  }, {
-    "Rationale" : "I want to know which model elements i am expected to work on in a viewpoint.",
-    "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
-  }, {
-    "Rationale" : "I need to populate system models with them and read them from system models.",
-    "Concern" : "What are the frameworks model elements to be used in system models?"
-  }, {
-    "Rationale" : "I need a user documentation of the viewpoint i am going to use.",
-    "Concern" : "What is the definition of a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
-    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
-    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to know if i am using a viewpoint suitable for my modeling task.",
-    "Concern" : "What is the purpose of a viewpoint in the framwork?"
-  }, {
-    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
-    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
-  }, {
-    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
-    "Concern" : "Which columns and rows does the frameworks grid have? "
-  }, {
-    "Rationale" : "I need to know the dependencies in order to plan my work.",
-    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
-  }, {
-    "Rationale" : "I want to know what types of diagrams, tables etc. i am going to work on.",
-    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
-  }, {
-    "Rationale" : "I want to know which viewpoints can possibly satisfy my information needs.",
-    "Concern" : "Which viewpoints are available in the framework"
-  }, {
-    "Rationale" : "I need an overview about the model in order to orient myself.",
-    "Concern" : "Which viewpoints are used in the system model"
-  }, {
-    "Rationale" : "I need an overview about the model in order to orient myself.",
-    "Concern" : "Which views of the frameworks viewpoints are present in the system model?"
-  } ]
-}, {
   "Name" : "Hardware Developer",
   "ID" : "_19_0_2_26f0132_1562303526473_933874_92402",
   "Documentation" : "Definition - Developer:\nOrganization that performs development tasks (including requirements analysis, design, testing through acceptance) during a life cycle process. [ISO/IEC 12207:2008]\nThe Developer is a group or an individual implementing the system parts according to defined requirements. On the lowest level of the system architecture there are the Hardware Developer responsible for implementing the hardware components.",
@@ -769,6 +517,29 @@
     "Concern" : "Which terms and abbreviations are applicable to the system of interest or its system elements and their interfaces and interactions?"
   } ]
 }, {
+  "Name" : "Operator",
+  "ID" : "_19_0_2_ebf0350_1554653238260_245225_43556",
+  "Documentation" : "Definition - Operator:\nIndividual or organization that performs the operations of a system, [ISO/IEC 15288:2022 – Systems engineering - System life-cycle processes]\nThe Operator is an individual or organization that uses knowledge, skills and procedures to perform the functions of the system to provide the benefit, product or service. \nAn individual Operator combined with knowledge, skills, and procedures may be considered as an element of the system. The role of the operator and the role of the user can be delegated to a single individual or may be simultaneously instantiated in the same organization. \n*For example: Air passengers are the user of the air transport system while a single flight is operated by an air carrier like the Lufthansa using aircrafts of various types to provide the transport service. \nTo provide the service to the passengers the carrier’s organization must implement lots of services utilizing several other enabling systems. \nThe individual aircraft is operated by the pilot who uses the on-board systems to control the aircraft and to navigate during that flight. \nThe example illustrates, that the roles user and operator are depending heavily on the definition of the SOI Scope.*",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
+    "Concern" : "Which users does the system support? "
+  } ]
+}, {
   "Name" : "Portfolio Manager",
   "ID" : "_2021x_2_8710274_1674680055517_468796_22923",
   "Documentation" : "Portfolio Manager:\nIndividual or organization that plans the Product portfolio, i.e. which products are available, will be available, which capabilities will they have.",
@@ -840,6 +611,212 @@
   }, {
     "Rationale" : "",
     "Concern" : "Who provides the inputs to a critical function?"
+  } ]
+}, {
+  "Name" : "Regulation Authority",
+  "ID" : "_19_0_2_ebf0350_1554653234809_156018_43552",
+  "Documentation" : "Definition - Regulation Authority:\nRegulation Authorities can have impact by imposing Stakeholder Requirements against the system and by their involvement in the development and acceptance phases (e.g. safety or IT security acceptance audits). \nThe term “authorities” also refers to current applicable regulations and laws.\nThe requirements stipulated on the system are diverse. They can be functional and non-functional requirements.\nSystems Engineering must adhere to relevant standards and needs to demonstrate compliance with those standards and requirements.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How are applicable requirements considered in the system architecture?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "How are error states handled?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What additional information the system or a system element needs to generate to enable testing?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the rationale when requirements are not considered?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Which modes and states does the system have?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "Why types of exchange can exist between Operational Performers (i.e., flows of information, people, material, or energy)?"
+  } ]
+}, {
+  "Name" : "SAF Developer",
+  "ID" : "_2024x_26f0132_1719129287848_367992_14650",
+  "Documentation" : "The SAF Developer is a group or an individual developing SAF or extending SAF.",
+  "Rationales" : [ {
+    "Rationale" : "I need to cover the processes and best practises by a suitable set of viewpoints.",
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  }, {
+    "Rationale" : "I need to chose a suitable implementation for the SE concepts exposed by a viewpoint.",
+    "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
+  }, {
+    "Rationale" : "I need to cover the information need of stakeholders to match the purpose of the viewpoint.",
+    "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I need to implement and document them for users",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
+  }, {
+    "Rationale" : "I need to create a comprehensive specification of the frameworks viewpoints.",
+    "Concern" : "What is the definition of a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to structure the framework along criteria that are similar over the domains. ",
+    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to structure the framework along criteria that roughly resemble phases of a typical SE workflow.",
+    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to cover the SE concepts exposed by viewpoints by an implementation.",
+    "Concern" : "What is the implementation of the frameworks concepts?"
+  }, {
+    "Rationale" : "I need an overview over the maturity of available to plan SAF development.",
+    "Concern" : "What is the maturity state of viewpoints in the framework?"
+  }, {
+    "Rationale" : "I need to explain to SAF users what the viewpoint is good for.",
+    "Concern" : "What is the purpose of a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to structure the framework into an understandable grid layout.",
+    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to structure the framework into an understandable grid layout.",
+    "Concern" : "Which columns and rows does the frameworks grid have? "
+  }, {
+    "Rationale" : "I need to analyze the concerns if they are justified by SE best practice.",
+    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
+  }, {
+    "Rationale" : "I need to design viewpoints that fullfill stakeholders information needs and cover the purpose of the viewpoints.",
+    "Concern" : "Which concerns are framed by a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to explain the hard(e.g. by required model elements being a prerequisite) and soft (a recommended good practice) dependencies to frameworks users.",
+    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to specify presentations of the information in a viewpoint to address different framework stakeholders concerns.",
+    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to cover important SE concepts in typical SE workflows along the processes of the INCOSE SE Handbook and SE best practices.",
+    "Concern" : "Which systems engineering concepts are covered by the framework?"
+  }, {
+    "Rationale" : "I need to specify which SE concepts are exposed in order to fullfil the information need of stakeholders and the viewpoints purpose.",
+    "Concern" : "Which systems engineering concepts are exposed within a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need an overview over the viewpoints available to identify possible gaps.",
+    "Concern" : "Which viewpoints are available in the framework"
+  }, {
+    "Rationale" : "I need to explain to frameworks users who would typically have an interest in which viewpoint.",
+    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I  want to understand the intention for the information need to select an cut set of viewpoints and then and appropriate presentation for the information.",
+    "Concern" : "Why does a stakeholder have this specific concern ? "
+  }, {
+    "Rationale" : "I need to know them in order select an appropriate presentation,  implementation, and to implement model checks.",
+    "Concern" : "what are the constraints related to se concepts covered by the framework? "
+  }, {
+    "Rationale" : "I need to make sure they can answer the information need described by concerns.\nI need to implement them in a profile",
+    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
+  } ]
+}, {
+  "Name" : "SAF MBSE approch planer",
+  "ID" : "_2024x_26f0132_1719129568628_636824_14722",
+  "Documentation" : "The SAF MBSE approach planer is a group or an individual selecting viewpoints to be used in an MBSE approach. This may be identical with an architect role but may as well be carried out by an organziation standardizing the MBSE approach for products, product lines or an entire enterprise.",
+  "Rationales" : [ {
+    "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because want to plan a MBSE approach.",
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  }, {
+    "Rationale" : "I want to know if the information need of my stakeholders in the planned MBSE approach is adressed by the viewpoint.",
+    "Concern" : "What are the concerns adressed by the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I need to know which modeling skills users will need.",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
+  }, {
+    "Rationale" : "I need to understand the frameworks viewpoints in order to plan an appropriate MBSE approach.",
+    "Concern" : "What is the definition of a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to understand the framworks structure in order to chose viewpoints to be used.",
+    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to know which viewpoins are stable to assess the risk using them.",
+    "Concern" : "What is the maturity state of viewpoints in the framework?"
+  }, {
+    "Rationale" : "I need to select appropriate viewpoinst for the MBSE approach.",
+    "Concern" : "What is the purpose of a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to understand the frameworks structure in order to chose viewpoints to be used.",
+    "Concern" : "Which columns and rows does the frameworks grid have? "
+  }, {
+    "Rationale" : "I need to analyze the concerns if they match the information needs my stakeholders will have in order to identify gaps in the MBSE approach.",
+    "Concern" : "Which concerns are does an architecture framework stakeholder have?"
+  }, {
+    "Rationale" : "I need to know if the information needs of my stakeholders are covered in order to plan the MBSE approach.",
+    "Concern" : "Which concerns are framed by a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to know the dependencies in order to plan the MBSE approach.",
+    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need plan which presentations shall be used by the MBSE approach.",
+    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need know if the SE concepts to my stakeholders according to the planned SE work flow is covered by the framework.",
+    "Concern" : "Which systems engineering concepts are covered by the framework?"
+  }, {
+    "Rationale" : "I need to select viewpoints for my stakeholders and want to use this information as a starting point.",
+    "Concern" : "Who are the architecture framework stakeholders of the frameworks viewpoints?"
+  }, {
+    "Rationale" : "I want to know what might happen if the concern cannot be fulfilled.",
+    "Concern" : "Why does a stakeholder have this specific concern ? "
+  }, {
+    "Rationale" : "I want to validate the assumptions made in the framework against the anticipated information need of the MBSE appoach.",
+    "Concern" : "what are the constraints related to se concepts covered by the framework? "
+  }, {
+    "Rationale" : "I want to know if the information need that i anticipate for the MBSE approach will be satisfied by the framework.",
+    "Concern" : "what are the relations between systems engineering concepts covered by the framework?"
+  } ]
+}, {
+  "Name" : "SAF System model user",
+  "ID" : "_2024x_26f0132_1719129555802_233661_14716",
+  "Documentation" : "The SAF System Model User is a group or an individual creating, maintaining or reading SAF System Models.",
+  "Rationales" : [ {
+    "Rationale" : "I want to know how the INCOSE HB processes and best practises are supported by the frameworks viewpoints, because i want to use the viewpoints suitable for the work i am doing.",
+    "Concern" : "How does a viewpoint of the framework support the processes and best practises of the INCOSE SE Handbook or other system engineering standards?"
+  }, {
+    "Rationale" : "I want to know which model elements i am expected to work on in a viewpoint.",
+    "Concern" : "How is a viewpoint implemented (which stereotypes /model elements are used)? "
+  }, {
+    "Rationale" : "I need to populate system models with them and read them from system models.",
+    "Concern" : "What are the frameworks model elements to be used in system models?"
+  }, {
+    "Rationale" : "I need a user documentation of the viewpoint i am going to use.",
+    "Concern" : "What is the definition of a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "What is the definition of columns (aspects) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "What is the definition of rows (domains) in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to know if i am using a viewpoint suitable for my modeling task.",
+    "Concern" : "What is the purpose of a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "Where is a viewpoint of the framework located in the frameworks grid?"
+  }, {
+    "Rationale" : "I need to be able to orient myself in the frameworks structure an know what is where.",
+    "Concern" : "Which columns and rows does the frameworks grid have? "
+  }, {
+    "Rationale" : "I need to know the dependencies in order to plan my work.",
+    "Concern" : "Which dependencies to other viewpoints exist for a viewpoint of the framework?"
+  }, {
+    "Rationale" : "I want to know what types of diagrams, tables etc. i am going to work on.",
+    "Concern" : "Which presentations are available for a viewpoint in the framwork?"
+  }, {
+    "Rationale" : "I want to know which viewpoints can possibly satisfy my information needs.",
+    "Concern" : "Which viewpoints are available in the framework"
+  }, {
+    "Rationale" : "I need an overview about the model in order to orient myself.",
+    "Concern" : "Which viewpoints are used in the system model"
+  }, {
+    "Rationale" : "I need an overview about the model in order to orient myself.",
+    "Concern" : "Which views of the frameworks viewpoints are present in the system model?"
   } ]
 }, {
   "Name" : "Safety Expert",
@@ -1492,5 +1469,28 @@
   }, {
     "Rationale" : "",
     "Concern" : "which protection goals  and subcategories can be used?"
+  } ]
+}, {
+  "Name" : "User",
+  "ID" : "_19_0_2_ebf0350_1567280920665_435327_53193",
+  "Documentation" : "Definition - User:\nIndividual or group that interacts with a system or benefits from a system during its utilization, [ISO/IEC 15288:2022 - Systems engineering - System life-cycle processes]\nThe User is the individual, organization or group that benefits from the operation of the system. The User provides the usage scenarios, the User needs and finally the user requirements representing most of the functional requirements but also non-functional requirements. The role of User and the role of operator are sometimes allocated, simultaneously or sequentially, to the same individual or organization. All the other stakeholders do not use the system for any purpose, and they do not need or require the system to satisfy any need. Therefore, interests of the User and claims of the Stakeholder could be contradicting.",
+  "Rationales" : [ {
+    "Rationale" : "",
+    "Concern" : "How does a system function interact with its environment?"
+  }, {
+    "Rationale" : "In my role, I need to check whether intended solution satisfies my user needs.",
+    "Concern" : "How is the system being used or utilized and interacting with other external systems to satisfy user needs?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are necessary inputs for operating the system expected to be provided by other external entitys?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What are the scenarios a system function is utilized in?"
+  }, {
+    "Rationale" : "",
+    "Concern" : "What is the necessary response time for an interface or a service?"
+  }, {
+    "Rationale" : "In my role, I need to check whether the system fits into the higher-level user concept.",
+    "Concern" : "Which users does the system support? "
   } ]
 } ]
