@@ -1,8 +1,7 @@
 ---
 title: Developer Documentation
 layout: default
-has_children: true
-nav_order: 20
+nav_order: 40
 ---
 # Developer Documentation
 

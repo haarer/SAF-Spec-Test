@@ -1,14 +1,10 @@
 ---
-title: User Documentation
+title: Framework Structure
 layout: default
-has_children: true
-nav_order: 10
+nav_order: 20
 ---
 
-# User Documentation
-This Documentation is intended for users of SAF. To understand how we develop SAF, see [Development Documentation](devdoc.md)
-
-## Framework Structure 
+# Framework Structure 
 
 ### Stakeholders of the Architecture and their Information Need
 SAF partitions the amount of modeling work for e.g. a whole system architecture into smaller parts, which each deliver value for [stakeholders of the architecture](faq.md#stakeholders) by satisfying their information needs.

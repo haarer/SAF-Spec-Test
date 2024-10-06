@@ -1,6 +1,6 @@
 ---
 title: Domains
-parent: "User Documentation"
+parent: "Framework Structure"
 layout: default
 nav_order: 4
 ---

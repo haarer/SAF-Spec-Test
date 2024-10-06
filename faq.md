@@ -24,7 +24,16 @@ There are two classes of Stakeholders in SAF. **System Stakeholders** and **Arch
 **What are Concerns?** 
 The information needs of stakeholders are called concerns. In SAF the relationship of a concern to a stakeholder is amended by a rationale, describing the reason for the information need.
 This allows multiple stakeholder have the same concern for different reasons. The reasoning provides valuable information, e.g. to support the decision why a viewpoint is needed. 
+
+Each Stakeholder of a system - customer, user, project manager, coder, analyst, tester, and so on - have specific information needs about different characteristics of the system.
+
+For example, the user has specific concerns which interactions he or she has with the system.; the customer is has a concern if and how the operational capabilities are supported by the system.
+
+The stakeholders concerns are specific to the lifecycle project phase, e.g., at a PDR, subsystem responsibles have the information need which systems function are delegated to their subsystems, while at a CDR they would need to know about the interface designs of other neighbor subsystems.
+
 See the [SAF concern documentation](userdoc/concerns.md).
+
+
 
 ## Domains
 **What are Domains?**
@@ -39,7 +48,7 @@ See the [SAF aspect Documentation](userdoc/aspects.md)
 ## Grid
 **What is the Grid?** 
 The Grid of a Framework is a means to organize and structure the Viewpoints of a Framework. It is like a tool-wall in a well organized workshop. Every tool has its place and is easily accessable.
-See the [SAF Viewpoint Grid](userdoc.md#saf-viewpoint-grid)
+See the [SAF Viewpoint Grid](structure.md#saf-viewpoint-grid)
 
 ## System Hierarchy
 **What is a System Hierarchy or System Decomposition?**

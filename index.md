@@ -10,19 +10,17 @@ Inspired by the various enterprise architecture frameworks the System Architectu
 
 The SAF can be used stand-alone and also complementary to enterprise architecture frameworks. SAF starts where an enterprise architecture framework stops.
 
-The System Architecture Framework ![Bild](assets/images/maturity-under-construction.svg) **is work in progress**
-
 ![Bild](assets/images/EAandSAF.png)
 
 # What is SAF? 
 * SAF is an architecture framework intended to support the Model Based Systems Engineering (MBSE) of technical systems.
 * SAF is an open toolbox.
-* SAF is based on a metamodel structured by viewpoint definitions.
+* SAF is based on a Systems Engineering Ontology and structured by viewpoint definitions.
 * SAF starts where enterprise architecture frameworks end.
 
 # SAF Documentation
 
-This site contains both documentation for users of SAF and developers of SAF. To understand how to use SAF, head over to **[User Documentation](userdoc.md)**. To understand how we develop SAF, see **[Development Documentation](devdoc.md)**. We always welcome contributions from our MBSE community to improve SAF, see [how to contribute to SAF](contributing.md).
+This site contains both documentation for users of SAF and developers of SAF. To understand how to use SAF, head over to **[Using SAF](using.md)**. To understand how we develop SAF, see **[Development Documentation](devdoc.md)**. We always welcome contributions from our MBSE community to improve SAF, see [how to contribute to SAF](contributing.md).
 
 # Example
 The System Architecture Framework Specification application is demonstrated using the **Fire Forest Detection System (FFDS)** example, courtesy of Tim Weilkiens. The Fire Forest Detection System example is based on the publication **SYSMOD - The Systems Modeling Toolbox, 3rd edition Pragmatic MBSE with SysML, Tim Weilkiens**

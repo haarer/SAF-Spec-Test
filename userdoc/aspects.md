@@ -1,6 +1,6 @@
 ---
 title: Aspects
-parent: "User Documentation"
+parent: "Framework Structure"
 layout: default
 nav_order: 5
 ---
