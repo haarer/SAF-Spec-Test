@@ -10,16 +10,18 @@
 * bring all dev viewpoints from proposed to construction
 * review all pages
 * concepts overview is missing (linked from stereotypes)
+* changes doc
+* links to SysML or UML Constructs from Profile model reference
 # fix
 * rand auf komplette seite ausdehnen
 * fix site footer link bullets
 * das komische problem beim bilder exportieren
-# new features
+# new features to add
 * beispiel diagramme  auf verschiedene tools umschaltbar
 * social bars ?
  * share (shariff tool)
 * contact footer
-* google analytics
+* google analytics ?
 * favico
 * switchable examples (rhy, sparx)
 * slide examples ?

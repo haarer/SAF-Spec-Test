@@ -10,7 +10,7 @@ Inspired by the various enterprise architecture frameworks the System Architectu
 
 The SAF can be used stand-alone and also complementary to enterprise architecture frameworks. SAF starts where an enterprise architecture framework stops.
 
-![Bild](assets/images/EAandSAF.png)
+![Bild](/assets/images/EAandSAF.png)
 
 # What is SAF? 
 * SAF is an architecture framework intended to support the Model Based Systems Engineering (MBSE) of technical systems.

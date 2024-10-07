@@ -33,7 +33,7 @@ The approach should be selected according to the constraints of the SoS scenario
 A typical workflow, developing a system from scratch could start in the functional domain, omitting the operational domain.[^2] : 
 
 ### Define the System Boundary
- * Start defining Users, Environmental Influences, and other Systems, the SOI will interface using the [System Context Definition Viewpoint](userdoc/Functional%20Domain/System%20Context%20Definition%20Viewpoint.md)
+ * Start by defining the System of Interest and then, Users, Environmental Influences, and other Systems to which the SOI will interface, using the [System Context Definition Viewpoint](userdoc/Functional%20Domain/System%20Context%20Definition%20Viewpoint.md)
    
    The goal here is, to dissect what is within the system from what is outside. 
 

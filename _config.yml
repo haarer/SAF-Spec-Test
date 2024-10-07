@@ -1,11 +1,12 @@
 title: System Architecture Framework
 description: A scalable SysML Based Framework to foster MBSE for multiple Modeling Tools!
 theme: just-the-docs
+source: src
 
 url: https://just-the-docs.github.io
 
 aux_links:
-  GfSE Home Page: https://gfse.de
+  GfSE Home Page: https://gfse.org
 
 
 logo: "/assets/images/Banner_SAF_gross.png"

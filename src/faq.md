@@ -31,19 +31,19 @@ For example, the user has specific concerns which interactions he or she has wit
 
 The stakeholders concerns are specific to the lifecycle project phase, e.g., at a PDR, subsystem responsibles have the information need which systems function are delegated to their subsystems, while at a CDR they would need to know about the interface designs of other neighbor subsystems.
 
-See the [SAF concern documentation](userdoc/concerns.md).
+See the [SAF concern documentation](../userdoc/concerns.md).
 
 
 
 ## Domains
 **What are Domains?**
 The rows of the SAF grid are called  domains. They organize the viewpoints in a way that typical engineering workflows follow the viewpoints in one domain, then continue to the next domain. 
-See the [SAF domain Documentation](userdoc/domains.md)
+See the [SAF domain Documentation](../userdoc/domains.md)
 
 ## Aspects
 **What are Aspects?**
 The columns of the SAF grid are called aspects. They organize the viewpoints by the kind of information need of stakeholders, typically similar diagram kinds appear together in the same aspect, and typically the same information need appears in multiple domains. 
-See the [SAF aspect Documentation](userdoc/aspects.md)
+See the [SAF aspect Documentation](../userdoc/aspects.md)
 
 ## Grid
 **What is the Grid?** 
