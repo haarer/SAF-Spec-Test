@@ -5,7 +5,7 @@ layout: default
 nav_order: 2
 ---
 # Stakeholders
-![SAF_Stakeholder_Definition](../src/assets/images/SAF_stakeholder_definition.svg.svg.svg)
+![SAF_Stakeholder_Definition](../assets/images/SAF_stakeholder_definition.svg)
 This section provides a list of the Stakeholder roles considered for the elicitation of concerns for SAF viewpoints. For each of the Stakeholders their [concerns](../src/faq.md#concerns) are listed.
 
 The following subchapters describe the stakeholders and their concerns:

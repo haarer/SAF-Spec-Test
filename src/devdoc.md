@@ -11,7 +11,7 @@ SAF is developed to foster Model Based Systems Engineering, and itself is develo
 
 ## Kinds of Models
 
-![Bild](../assets/images/Kinds-of-Models.svgsvgsvg)
+![Bild](./assets/images/Kinds-of-Models.svg)
 
 There are several kinds of models around SAF serving a certain purpose
 
@@ -38,7 +38,7 @@ The conceptual model is the foundation of SAF development.
 It governs, which items SAF consist of and how these items are related.
 It follows the concepts of ISO 42010. SAF extends ISO 42010 in a way that SAF is able to express a rationale for a Stakeholders Concern. This should possibly be added to ISO 42010.
 
-![Bild](../assets/images/Concept-Model-Definition.svgsvgsvg)
+![Bild](./assets/images/Concept-Model-Definition.svg)
 
 Within the conceptual model the following elements can be recognized (many of them are specializations of ISO 42010 Concepts):
 
